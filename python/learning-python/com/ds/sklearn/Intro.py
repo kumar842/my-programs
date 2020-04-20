@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 from sklearn import cluster
 import scipy, pandas
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 #loading datasets
