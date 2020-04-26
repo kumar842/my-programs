@@ -3,7 +3,7 @@ import {Util} from './Util';
 let util = new Util();
 
 //1st sum of elements
-let as = [5, 6, 7]
+let as = [5, 6, 7];
 let res = util.sum(as);
 //console.log(res);
 
@@ -12,12 +12,9 @@ let res = util.sum(as);
 let bs = [3, 6, 10];
 function compareTriplets(a: number[], b: number[]): number[] {
     let res = a.map((x, i) => x - b[i]);
-    let score1 = res.filter(x => x > 0).length;
-    let score2 = res.filter(x => x < 0).length;
-    return [score1, score2];
+    return [util.filteredCount(res, util.isPositive), util.filteredCount(res, util.isNegative)];
 }
 //console.log(compareTriplets(as, bs));
-
 
 //3rd very big sum
 function aVeryBigSum(ar: number[]) {
@@ -26,14 +23,14 @@ function aVeryBigSum(ar: number[]) {
 
     function aVeryBigSumUtil(ar: number[], result: string, remaining: number): string {
         // console.log(`ar: ${ar} -- result: ${result}  -- remaining: ${remaining}`);
-        if(ar.filter(x => x > 0).length > 0){
-            let res = ar.map(a => a % 10).reduce((x, y) => x + y) + remaining;
+        if(ar.filter(x => x > 0).length > 0) {
+            let res = util.sum(ar.map(a => a % 10)) + remaining;
             return aVeryBigSumUtil(ar.map(a => Math.floor(a /10)), (res % 10) + result, Math.floor(res / 10));
-        }else {
+        } else {
             if(remaining == 0)
                 return result;
             else
-                return remaining + result; 
+                return remaining + result;
         }
     }
 }
@@ -55,9 +52,9 @@ function diagonalDifference(arr: number[][]) {
 function plusMinus(arr: number[]) {
     let total = arr.length;
     const c = 1000000;
-    let positiveFraction: string = ""+Math.round(arr.filter(x => x > 0).length * c/ total)/c;
-    let zeroFraction: string = ""+Math.round(arr.filter(x => x == 0).length * c/ total)/c;
-    let negativeFraction: string = ""+Math.round(arr.filter(x => x < 0).length * c/ total)/c;
+    let positiveFraction: string = "" + Math.round(arr.filter(util.isPositive).length * c/ total) / c;
+    let zeroFraction: string = "" + Math.round(arr.filter(util.isZero).length * c/ total) / c;
+    let negativeFraction: string = "" + Math.round(arr.filter(util.isNegative).length * c/ total) / c;
 
     // if(!positiveFraction.includes(".")){
     //     positiveFraction += ".0"; 
@@ -157,7 +154,7 @@ function timeConversion(s: string) {
 function strangeCounter(t: number) {
     let div = Math.floor((t + 3) / 3);
     let remainder = (t + 3) % 3;
-    return [Math.log2(div), remainder];
+    //return [Math.log2(div), remainder];
     //let remainder = t % 3 - 1;
     //return div;
     //return 3 * Math.pow(2, div) - remainder;
@@ -226,4 +223,59 @@ function divisibleSumPairs(n: number, k: number, ar: number[]) {
     }
     return count;
 }
-console.log(divisibleSumPairs(6, 3, [1, 3, 2, 6, 1, 2]));
+//console.log(divisibleSumPairs(6, 3, [1, 3, 2, 6, 1, 2]));
+
+//15. Complete the migratoryBirds function below. //TODO: 
+function migratoryBirds(arr: number[]) {
+    // let m = new Map();
+    
+    // arr.forEach(a => {
+    //     if(m.has(a))
+    //         m.set(a, m.get(a) + 1);
+    //     else
+    //         m.set(a, 1)
+    // });
+
+    // let maxKey = 0;
+    // let maxValue = 0;
+    // m.forEach((value, key) => {
+    //     if(value > maxValue){   
+    //         maxValue = value;
+    //         maxKey = key;
+    //     }
+    // });
+
+    // return maxKey;
+}
+//console.log(migratoryBirds([1,1,2,3,2,2]));
+
+
+//16.  Complete the dayOfProgrammer function below.
+function dayOfProgrammer(year: number) {
+    //if(year == 1800) return "12.09." + year; 
+    let isLeapYear = year % 400 == 0 || (year % 4 == 0 && year % 100 !== 0) ? true : false;
+    if(isLeapYear) return "12.09." + year;
+    else return "13.09." + year; 
+}
+//console.log(1800 % 400 == 0 || (1800 % 4 == 0 && 1800 % 100 != 0) ? true : false);
+
+
+//17. Complete the bonAppetit function below.
+function bonAppetit(bill: number[], k: number, b: number){
+    let bActual = (util.sum(bill) - bill[k])/2;
+    if(bActual == b)
+        console.log("Bon Appetit");
+    else
+        console.log(b - bActual);
+}
+
+
+
+//18. Complete the sockMerchant function below.
+function sockMerchant(n: number, ar: number[]) {
+    var map = util.groupBy(ar);
+    
+}
+
+
+console.log(util.groupBy([10, 20, 20, 10, 10, 30, 50, 10, 20]));

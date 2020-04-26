@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+- ids - done
+- emptyone.. no action - done
+- moveIt(id) - done
+- isSideBy() - done
+- number of moves 
+- sucdess message
+- shuffle/jumble
+- responsive .. mobile 
+- sound
+-->
+<head>
+    <title>Slate App</title>
+    <script src="./app.js"></script>
+    <link rel="stylesheet" href="app.css">
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
+
+        html {
+            display: table;
+            margin: auto;
+        }
+
+        body {
+            display: table-cell;
+        }
+    </style>
+</head>
+
+<body onload="main()">
+    <h1>Hexagon Puzzle</h1>
+    <div class="container">
+        <div id="myapp">
+            <button type="button" onclick="shuffle();">Start</button>
+            <div class="row">
+                <div class="hexagonY" id="0-5" onclick="moveIt(id);"></div>
+                <div class="hexagonY" id="0-7" onclick="moveIt(id);"></div>
+            </div>
+            <div class="row">
+                <div class="hexagonY" id="1-4" onclick="moveIt(id);"></div>
+                <div class="hexagonY" id="1-6" onclick="moveIt(id);"></div>
+                <div class="hexagonY" id="1-8" onclick="moveIt(id);"></div>
+            </div>
+            <div class="row">
+                <div class="hexagonY" id="2-5" onclick="moveIt(id);"></div>
+                <div class="hexagonY" id="2-7" onclick="moveIt(id);"></div>
+            </div>
+            <div class="row">
+                <div class="hexagonR" id="3-2" onclick="moveIt(id);"></div>
+                <div class="hexagonR" id="3-4" onclick="moveIt(id);"></div>
+                <div class="hexagonW" id="3-6" onclick="moveIt(id);"></div>
+                <div class="hexagonB" id="3-8" onclick="moveIt(id);"></div>
+                <div class="hexagonB" id="3-10" onclick="moveIt(id);"></div>
+            </div>
+            <div class="row">
+                <div class="hexagonR" id="4-1" onclick="moveIt(id);"></div>
+                <div class="hexagonR" id="4-3" onclick="moveIt(id);"></div>
+                <div class="hexagonR" id="4-5" onclick="moveIt(id);"></div>
+                <div class="hexagonB" id="4-7" onclick="moveIt(id);"></div>
+                <div class="hexagonB" id="4-9" onclick="moveIt(id);"></div>
+                <div class="hexagonB" id="4-11" onclick="moveIt(id);"></div>
+            </div>
+            <div class="row">
+                <div class="hexagonR" id="5-2" onclick="moveIt(id);"></div>
+                <div class="hexagonR" id="5-4" onclick="moveIt(id);"></div>
+                <div class="emptyhexagon"></div>
+                <div class="hexagonB" id="5-8" onclick="moveIt(id);"></div>
+                <div class="hexagonB" id="5-10" onclick="moveIt(id);"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

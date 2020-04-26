@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+body {
+  background: #323232;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+body .container {
+  padding: 10rem;
+}
+body .row {
+  margin-top: calc(((5rem * 0.288) * -1 + 0.25rem));
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.hexagonY {
+  position: relative;
+  width: 5rem;
+  height: 2.885rem;
+  background-color: yellow;
+  margin: 1.44rem 0;
+  margin-right: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1);
+  transition: all 0.25s ease-in-out;
+}
+
+.hexagonY:before, .hexagonY:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  border-left: 2.5rem solid transparent;
+  border-right: 2.5rem solid transparent;
+}
+.hexagonY:before {
+  bottom: 100%;
+  border-bottom: 1.44rem solid yellow;
+}
+.hexagonY:after {
+  top: 100%;
+  width: 0;
+  border-top: 1.44rem solid yellow;
+}
+
+
+
+.hexagonR {
+    position: relative;
+    width: 5rem;
+    height: 2.885rem;
+    background-color: red;
+    margin: 1.44rem 0;
+    margin-right: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: all 0.25s ease-in-out;
+  }
+  
+  .hexagonR:before, .hexagonR:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+  }
+  .hexagonR:before {
+    bottom: 100%;
+    border-bottom: 1.44rem solid red;
+  }
+  .hexagonR:after {
+    top: 100%;
+    width: 0;
+    border-top: 1.44rem solid red;
+  }
+
+  .hexagonB {
+    position: relative;
+    width: 5rem;
+    height: 2.885rem;
+    background-color: blue;
+    margin: 1.44rem 0;
+    margin-right: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: all 0.25s ease-in-out;
+  }
+  
+  .hexagonB:before, .hexagonB:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+  }
+  .hexagonB:before {
+    bottom: 100%;
+    border-bottom: 1.44rem solid blue;
+  }
+  .hexagonB:after {
+    top: 100%;
+    width: 0;
+    border-top: 1.44rem solid blue;
+  }
+
+
+
+  .hexagonW {
+    position: relative;
+    width: 5rem;
+    height: 2.885rem;
+    background-color: white;
+    margin: 1.44rem 0;
+    margin-right: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: all 0.25s ease-in-out;
+  }
+  
+  .hexagonW:before, .hexagonW:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    border-left: 2.5rem solid transparent;
+    border-right: 2.5rem solid transparent;
+  }
+  .hexagonW:before {
+    bottom: 100%;
+    border-bottom: 1.44rem solid white;
+  }
+  .hexagonW:after {
+    top: 100%;
+    width: 0;
+    border-top: 1.44rem solid white;
+  }
+
+
+
+  .emptyhexagon {
+    position: relative;
+    width: 5rem;
+    height: 2.885rem;
+    margin: 1.44rem 0;
+    margin-right: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    transition: all 0.25s ease-in-out;
+  }
+  
+  
+  .emptyhexagon:before {
+    bottom: 100%;
+    border-bottom: 1.44rem solid;
+  }
+  .emptyhexagon:after {
+    top: 100%;
+    width: 0;
+    border-top: 1.44rem solid;
+  }
+
