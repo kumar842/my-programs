@@ -1,4 +1,4 @@
-import {Component} from '../lib/mylib.js';
+import {Component, $, $s} from '../lib/mylib.js';
 import Employee from './employee.js';
 
 export default class EmployeeList extends Component {
@@ -7,83 +7,21 @@ export default class EmployeeList extends Component {
         super(props);
     }
 
-    createEmployeesTable(employees) {
-        let table = document.createElement('table');
-        table.appendChild(this.createHeader());
-        employees.forEach((employee, index) => {
-            //console.log(employee);
-            let employeeComponent = new Employee({
-                store: {
-                    state: {employee, index}
-                },
-                element: '',
-                parentElement: table,
-                parentStore: this.props.store
-            });
-            employeeComponent.render();
-        });
-        table.appendChild(this.createFormRow());
-        //console.log(table);
-        return table;
-    }
-
-    createHeader() {
-        let tr = document.createElement('tr');
-        tr.appendChild(this.createHeaderCell("Id"));
-        tr.appendChild(this.createHeaderCell("Frist Name"));
-        tr.appendChild(this.createHeaderCell("Middle Name"));
-        tr.appendChild(this.createHeaderCell("Last Name"));
-        tr.appendChild(this.createHeaderCell("Created By"));
-        tr.appendChild(this.createHeaderCell("Created On"));
-        tr.appendChild(this.createHeaderCell("Last Modified By"));
-        tr.appendChild(this.createHeaderCell("Last Modified On"));
-        tr.appendChild(this.createHeaderCell(""));
-        return tr;
-    }
-    
-    createFormRow() {
-        let tr = document.createElement('tr');
-        tr.appendChild(this.createFormCell("", true));
-        let firstNameTd = this.createFormCell("firstName")
-        tr.appendChild(firstNameTd);
-        tr.appendChild(this.createFormCell("middleName"));
-        tr.appendChild(this.createFormCell("lastName"));
-        tr.appendChild(this.createFormCell('createdBy', true));
-        tr.appendChild(this.createFormCell("createdOn", true));
-        tr.appendChild(this.createFormCell("lastModifiedBy", true));
-        tr.appendChild(this.createFormCell("lastModifiedOn", true));
-        let addCell = this.createCell("✓");
-        addCell.onclick = () => {
-            let emp = {
-                id: 3,
-                firstName: firstNameTd.childNodes[0].value
-            }
-            this.props.store.dispatch('addEmployee', emp);
+    addEmployee = () => {
+        let self = this;
+        const payload = {
+            firstName: $('firstName').value || "",
+            middleName: $('middleName').value || "",
+            lastName: $('lastName').value || "",
+            createdOn: "16/05/2020",
+            createdBy: 'Rajkumar'
         }
-        
-        tr.appendChild(addCell);
-        return tr;
+        self.props.store.dispatch('addEmployee', payload);
     }
 
-    createCell(str){
-        let td = document.createElement('td');
-        td.innerHTML = str;
-        return td;
-    }
-
-    createFormCell(str, isReadOnly){
-        let td = document.createElement('td');
-        let input = document.createElement('input');
-        input.id = str;
-        input.readOnly = isReadOnly || false;
-        td.appendChild(input);
-        return td;
-    }
-
-    createHeaderCell(str){
-        let th = document.createElement('th');
-        th.innerHTML = str;
-        return th;
+    removeEmployee = (index) => {
+        let self = this;
+        return () => self.props.store.dispatch('removeEmployee', { index });
     }
 
     /**
@@ -92,13 +30,61 @@ export default class EmployeeList extends Component {
      * @returns {void}
      */
     render() {
-        console.log('loading list of employees : this.props = ', this.props);
-        
-        const element = this.props.element;
-        let mytable = this.createEmployeesTable(this.props.store.state.employees);
-        if(element.hasChildNodes()){
-            element.removeChild(element.childNodes[0]);
+        const self = this;
+        console.log('loading list of employees : self.props = ', self.props);
+
+        const element = self.props.element;
+        const employees = self.props.store.state.employees;
+
+        const headerRow = `<tr>
+                            <th>Id</th>
+                            <th>First Name</th>
+                            <th>Middle Name</th>
+                            <th>Last Name</th>
+                            <th>CreatedBy</th>
+                            <th>Created On</th>
+                            <th>Last Modified By</th>
+                            <th>Last Modified On</th>
+                            <th>Action</th>
+                    </tr>`;
+        element.innerHTML = `<table>${headerRow}</table>`;
+
+        /** add each row for each employee **/
+        const tableElement = element.childNodes[0];
+        employees.forEach((employee, index) => {
+            let employeeComponent = new Employee({
+                store: {
+                    state: {employee, index}
+                },
+                element: tableElement,
+                parentStore: self.props.store
+            });
+            employeeComponent.render();
+        });
+
+        /** add form row **/
+        const addCellId = `td-add`;
+        const formRow = `<tr>
+                        <td></td>
+                        <td><input type="text" id="firstName"></input></td>
+                        <td><input type="text" id="middleName"></input></td>
+                        <td><input type="text" id="lastName"></input></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="${addCellId}">✓</td>
+                    </tr>`;
+        tableElement.innerHTML += formRow;
+
+        /** add onclick event for addEmployee **/
+        const addCell = $(addCellId);
+        addCell.onclick = self.addEmployee;
+
+        /** add onclick event for removeEmployee **/
+        let ls = $s('deleterow');
+        for(let i = 0; i < ls.length; i++){
+            ls[i].onclick = self.removeEmployee(i);
         }
-        element.appendChild(mytable);
     }
 };

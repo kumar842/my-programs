@@ -1,16 +1,10 @@
-import store from './store/index.js'; 
+import actions from './store/actions.js';
+import mutations from './store/mutations.js';
+import state from './store/state.js';
+import {$, Store} from './lib/mylib.js';
 
 // Load up components
 import EmployeeList from './components/employee-list.js';
-
-function $(name){
-    if(name.startsWith('#')){
-        return document.getElementById(name.substring(1))
-    }
-}
-
-// Load up some DOM elements
-const app = $("#myapp");
 
 // Add a submit event listener to the form and prevent it from posting back
 // formElement.addEventListener('submit', evt => {
@@ -27,11 +21,16 @@ const app = $("#myapp");
 //     }
 // });
 
+const store = new Store({
+    actions,
+    mutations,
+    state
+});
+
 // Instantiate components
-;
 const employeeList = new EmployeeList({
     store,
-    element: app
+    element: $("myapp")
 });
 
 // Initial renders

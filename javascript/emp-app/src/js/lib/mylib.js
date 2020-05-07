@@ -190,3 +190,14 @@ export class Store {
         return true;
     }
 }
+
+export function $(id){
+    // if(name.startsWith('#')){
+    //     return document.getElementById(name.substring(1));
+    // }
+    return document.getElementById(id); 
+}
+
+export function $s(name){
+    return document.getElementsByClassName(name);
+}
