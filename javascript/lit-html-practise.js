@@ -34,16 +34,27 @@ const data2 = {
   items: [1,2,3]
 };
 
+
+const helloDir = directive(() => 
+	(part)=> {part.setValue('Hello directive');}
+);
+
+const helloTemplate = html`
+	<div>${helloDir()}</div>
+`;
+
+//render(helloTemplate, document.body);
+
 const result = html`
 	${result1}
 	${myTemplate2(123, 12)}
 	${myTemplate('Rajkumar')}
 	${myTemplate3()}
 	${myPage(data2)}
+	${helloTemplate}
 `;
 
 render(result, document.body);
-
 
 //TODO:
 // - nothing and the slot fallback content
