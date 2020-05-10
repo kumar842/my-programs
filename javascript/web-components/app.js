@@ -49,8 +49,7 @@ export default class UserCard extends HTMLElement {
     }
 
     disconnectedCallback(){
-        this.shadowRoot.querySelector('#toggle-info').addEventListener('click', () => this.toggleInfo());
-        this.removeEventListener();
+        this.shadowRoot.querySelector('#toggle-info').removeEventListener();
     }
 }
 customElements.define('user-card', UserCard); 
