@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Slate App</title>
+        <title>Web Components</title>
         <script type="module" src="app.js"></script>
+        <style>
+            h3 {
+                color: purple;
+            }
+        </style>
     </head>
     <body >
-        <h1>Slate Puzzle</h1>
+        <h3>Web Components</h3>
         <div id="myapp">
-            <user-card></user-card>
+            <user-card name="Rajkumar" avatar="https://randomuser.me/api/portraits/men/1.jpg">
+                <div slot="email">kumar842@gmail.com</div>
+                <div slot="phone">8008111872</div>
+            </user-card>
+            <user-card name="Archana" avatar="https://randomuser.me/api/portraits/women/1.jpg">
+                <div slot="email">kumar842@gmail.com</div>
+                <div slot="phone">8008111872</div>
+            </user-card>
         </div>
     </body>
 </html>
