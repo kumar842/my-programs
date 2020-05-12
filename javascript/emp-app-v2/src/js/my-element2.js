@@ -6,7 +6,7 @@ import {LitElement, html, css} from 'https://unpkg.com/lit-element?module';
  * @slot - This element has a slot
  * @csspart button - The button
  */
-export default class MyElement extends LitElement {
+export default class MyElement2 extends LitElement {
   static get styles() {
     return css`
       :host {
@@ -20,13 +20,15 @@ export default class MyElement extends LitElement {
 
   static get properties() {
     return {
-      state: {type: Object}
+      name: {type: String}
     };
   }
 
-  constructor(state) {
+  set
+
+  constructor(name) {
     super();
-    this.state = state;
+    this.name = name;
   }
 
   row = (e) => html`<tr><td>${e.id}</td></tr>`; 
@@ -35,14 +37,10 @@ export default class MyElement extends LitElement {
     let self = this;
     return html`
       <h1>Employee Management System</h1>
-      <p>${this.state.employees[0].id}</p>
+      <p>${this.name}</p>
     `;
           
   }
-
-  _onClick() {
-    this.count++;
-  }
 }
 
-window.customElements.define('my-element', MyElement);
+window.customElements.define('my-element2', MyElement2);
