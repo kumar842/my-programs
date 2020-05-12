@@ -52,7 +52,7 @@ let result1 = Array._1toN(10).filter(n => n % 3 === 0 || n % 5 === 0).sum();
 //3. Largest prime factor.
 // The prime factors of 13195 are 5, 7, 13 and 29.
 // What is the largest prime factor of the number 600851475143 ?
-Number.primeFactors(600851475143).max()//TODO: says wrong answer.. check it out.. 
+let result3 = Number.primeFactors(600851475143).max()//TODO: says wrong answer.. check it out.. 
 
 
 //4.Largest palindrome product
@@ -61,5 +61,5 @@ Number.primeFactors(600851475143).max()//TODO: says wrong answer.. check it out.
 
 let numbers = (new Array(900)).fill(1).map((value, index) => 999 - index)
 let cartesian = numbers.map(n => numbers.map(x => x * n));
-let result = cartesian.flatMap(x => x).filter(n => Number.isNPalindrome(n)).max();
+let result4 = cartesian.flatMap(x => x).filter(n => Number.isNPalindrome(n)).max();
 //Ans: 906609
