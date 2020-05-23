@@ -11,7 +11,14 @@ String.prototype.isPalindrome = function() {
 Array.prototype.sum = function() {return this.reduce((x, y) => x + y)};
 Array.prototype.max = function() {return this.reduce((x, y) => x > y? x: y)};
 Array.prototype.min = function() {return this.reduce((x, y) => x < y? x: y)};
-Array.prototype.contains = function(n) {return this.filter(x => x === n).length > 0}
+//Array.prototype.contains = function(n) {return this.filter(x => x === n).length > 0}
+Array.prototype.uniq = function()  {
+  let result = [];
+  this.map(x => {
+    if(!result.includes(x)) result.push(x);
+  })
+  return result;
+}
 
 Array._1toN = n => Array.apply(0, {length: n}).map((value, index) => index + 1);
 Array._0toN = n => Array.apply(0, {length: n}).map((value, index) => index);
@@ -24,8 +31,8 @@ Number.factors = n => {
     let maxValue = Math.ceil(Math.sqrt(n));
     for(let i = 1; i <= maxValue; i++){
         if(Number.isNDivisibleBy(n, i)){
-            if(!factors.contains(i)) factors.push(i);
-            if(!factors.contains(n/i)) factors.push(n/i);
+            if(!factors.includes(i)) factors.push(i);
+            if(!factors.includes(n/i)) factors.push(n/i);
         }
     }
     return factors;
@@ -52,7 +59,7 @@ Number.gcd = (x, y) => {
 	  else return gcdUtil(b % a, a);
   }
 	return gcdUtil(x, y);
-}
+}//TOOD: make it to work on multiple numbers
 
 // 1. Multiples of 3 and 5
 let result1 = Array._1toN(10).filter(n => n % 3 === 0 || n % 5 === 0).sum();
