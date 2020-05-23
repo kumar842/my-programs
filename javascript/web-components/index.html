@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Web Components</title>
-        <link rel="manifest" href="/manifest.webmanifest">
         <script type="module" src="app.js"></script>
         <style>
             h3 {
@@ -13,29 +12,14 @@
     <body >
         <h3>Web Components</h3>
         <div id="myapp">
-            <user-card name="Rajkumar" avatar="./images/rajkumar.png">
+            <user-card name="Rajkumar" avatar="https://randomuser.me/api/portraits/men/1.jpg">
                 <div slot="email">kumar842@gmail.com</div>
-                <div slot="phone">800xxxxx72</div>
+                <div slot="phone">8008111872</div>
             </user-card>
-            <user-card name="Archana" avatar="./images/archana.png">
-                <div slot="email">ps.asha2@gmail.com</div>
-                <div slot="phone">9494xxxxx2</div>
+            <user-card name="Archana" avatar="https://randomuser.me/api/portraits/women/1.jpg">
+                <div slot="email">kumar842@gmail.com</div>
+                <div slot="phone">8008111872</div>
             </user-card>
-            <user-card name="Himakar" avatar="./images/himakar.png">
-                <div slot="email">ps.asha2@gmail.com</div>
-                <div slot="phone">9494xxxxx2</div>
-            </user-card>
-            <user-card name="Vedansh" avatar="./images/vedansh.png">
-                <div slot="email">ps.asha2@gmail.com</div>
-                <div slot="phone">9494xxxxx2</div>
-            </user-card>
-
-            <!-- Install button, hidden by default -->
-            <div id="installContainer" class="hidden">
-                <button id="butInstall" type="button">
-                Install
-                </button>
-            </div>
         </div>
     </body>
 </html>
