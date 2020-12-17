@@ -1,0 +1,49 @@
+~~~~~~~~~~~~~~~~~~~~  Features  ~~~~~~~~~~~~~~~~~~~~
+- log interceptors
+- auth interceptors
+- global exception handling
+- validations
+- hot redeploy
+- profiling
+- CRID APIs
+- logging(slf4j) rolling based logging(10MB, day wise)
+- enable CORS
+- AppConfiguration.java - load conf. from database & cache it... interval based caching
+- @postconstruct example
+- Building an executable jar
+- ORM - Base Entity
+- ORM - JPA - mysql
+
+
+- readMe
+- RBAC
+- ORM - 1-1, 1-m, m-1, m-m etc.
+- Running it as a service
+- spring security
+- session management
+- Junit
+- Schedule
+- CRUD UI with Vaadin
+- Docker
+- Asynchronous APIs
+- websocket
+- REST API with file upload
+- JMS
+- Caching
+- API documentation REST Docs
+- Paginated APIs
+- swagger
+- Actuator
+- properties
+	- context path
+	- jpa database conf.
+	- date format
+	- server.port
+	- management.port etc.
+
+
+Bugs:
+- log interceptor fails for 404 error/when exception occurs
+
+
+

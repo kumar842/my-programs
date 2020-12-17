@@ -1,0 +1,21 @@
+[Unit]
+Description=My sprint boot service
+[Service]
+User=rregunta
+
+# The configuration file application.properties should be here:
+#change this to your workspace
+WorkingDirectory=/Users/rregunta/workspace/my-programs/my-spring-boot
+
+#path to executable.
+
+#executable is a bash script which calls jar
+ExecStart=my-spring-boot-app.sh
+
+SuccessExitStatus=143
+TimeoutStopSec=10
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

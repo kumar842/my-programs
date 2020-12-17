@@ -1,0 +1,598 @@
+2020-05-04 11:44:21,801 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 6745 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 11:44:21,809 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 11:44:21,810 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 11:44:24,903 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mySpringBootApp': Unsatisfied dependency expressed through field 'empRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.regunta.myapp.repository.EmployeeRepository.findByFirstNameIgnoreCaseContainingOrLastNameIgnoreCaseContainingOrMidNameIgnoreCaseContaining(java.lang.String,java.lang.String,java.lang.String)! No property midName found for type Employee!
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.myapp.MySpringBootApp.main(MySpringBootApp.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.regunta.myapp.repository.EmployeeRepository.findByFirstNameIgnoreCaseContainingOrLastNameIgnoreCaseContainingOrMidNameIgnoreCaseContaining(java.lang.String,java.lang.String,java.lang.String)! No property midName found for type Employee!
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.regunta.myapp.repository.EmployeeRepository.findByFirstNameIgnoreCaseContainingOrLastNameIgnoreCaseContainingOrMidNameIgnoreCaseContaining(java.lang.String,java.lang.String,java.lang.String)! No property midName found for type Employee!
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:106)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:211)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1054)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 34 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property midName found for type Employee!
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:94)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:382)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:358)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:311)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:293)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:276)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:82)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	... 60 common frames omitted
+2020-05-04 11:44:46,251 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 6772 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 11:44:46,255 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 11:44:46,255 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 11:44:48,834 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mySpringBootApp': Invocation of init method failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	The method findByFirstNameIgnoreCaseContainingOrLastNameIgnoreCaseContainingOrMidNameIgnoreCaseContaining(String, String, String) is undefined for the type EmployeeRepository
+
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1795)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.myapp.MySpringBootApp.main(MySpringBootApp.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	The method findByFirstNameIgnoreCaseContainingOrLastNameIgnoreCaseContainingOrMidNameIgnoreCaseContaining(String, String, String) is undefined for the type EmployeeRepository
+
+	at com.regunta.myapp.MySpringBootApp.postCostructSample(MySpringBootApp.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 23 common frames omitted
+2020-05-04 11:45:10,700 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 6792 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 11:45:10,704 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 11:45:10,705 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 11:45:13,259 INFO com.regunta.myapp.MySpringBootApp [restartedMain] post construct....
+2020-05-04 11:45:13,418 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=1, firstName=Archana_udpated, lastName=Regunta_updated, middleName=kumar_updated), Employee(id=2, firstName=Archana_udpated, lastName=Regunta_updated, middleName=kumar_updated), Employee(id=3, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=kumar_udpated), Employee(id=4, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=kumar_udpated), Employee(id=5, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=kumar_udpated)]
+2020-05-04 11:45:13,424 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=1, firstName=Archana_udpated, lastName=Regunta_updated, middleName=kumar_updated), Employee(id=2, firstName=Archana_udpated, lastName=Regunta_updated, middleName=kumar_updated), Employee(id=3, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=kumar_udpated), Employee(id=4, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=kumar_udpated), Employee(id=5, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=kumar_udpated)]
+2020-05-04 11:45:13,436 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 11:45:13,862 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 3.401 seconds (JVM running for 3.92)
+2020-05-04 11:45:13,864 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-04 11:45:35,503 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 6792 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 11:45:35,503 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 11:45:35,503 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 11:45:35,891 INFO com.regunta.myapp.MySpringBootApp [restartedMain] post construct....
+2020-05-04 11:45:35,910 INFO com.regunta.myapp.MySpringBootApp [restartedMain] []
+2020-05-04 11:45:35,914 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=1, firstName=Archana_udpated, lastName=Regunta_updated, middleName=kumar_updated), Employee(id=2, firstName=Archana_udpated, lastName=Regunta_updated, middleName=kumar_updated), Employee(id=3, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=kumar_udpated), Employee(id=4, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=kumar_udpated), Employee(id=5, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=kumar_udpated)]
+2020-05-04 11:45:35,920 INFO com.regunta.myapp.AppConfig [Timer-1] cacheValue(): reading ... from the database
+2020-05-04 11:45:36,035 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.559 seconds (JVM running for 26.092)
+2020-05-04 11:45:36,037 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-04 11:46:13,437 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 11:46:19,860 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 6792 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 11:46:19,861 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 11:46:19,861 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 11:46:20,206 INFO com.regunta.myapp.MySpringBootApp [restartedMain] post construct....
+2020-05-04 11:46:20,226 INFO com.regunta.myapp.MySpringBootApp [restartedMain] []
+2020-05-04 11:46:20,229 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=1, firstName=Archana_udpated, lastName=Regunta_updated, middleName=kumar_updated), Employee(id=2, firstName=Archana_udpated, lastName=Regunta_updated, middleName=kumar_updated)]
+2020-05-04 11:46:20,233 INFO com.regunta.myapp.AppConfig [Timer-2] cacheValue(): reading ... from the database
+2020-05-04 11:46:20,334 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.5 seconds (JVM running for 70.394)
+2020-05-04 11:46:20,335 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-04 11:46:35,921 INFO com.regunta.myapp.AppConfig [Timer-1] cacheValue(): reading ... from the database
+2020-05-04 11:46:47,003 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 6792 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 11:46:47,004 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 11:46:47,004 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 11:46:47,318 INFO com.regunta.myapp.MySpringBootApp [restartedMain] post construct....
+2020-05-04 11:46:47,336 INFO com.regunta.myapp.MySpringBootApp [restartedMain] []
+2020-05-04 11:46:47,340 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=5, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=abc)]
+2020-05-04 11:46:47,343 INFO com.regunta.myapp.AppConfig [Timer-3] cacheValue(): reading ... from the database
+2020-05-04 11:46:47,430 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.453 seconds (JVM running for 97.49)
+2020-05-04 11:46:47,431 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-04 11:47:13,438 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 11:47:20,234 INFO com.regunta.myapp.AppConfig [Timer-2] cacheValue(): reading ... from the database
+2020-05-04 11:47:35,924 INFO com.regunta.myapp.AppConfig [Timer-1] cacheValue(): reading ... from the database
+2020-05-04 11:47:47,346 INFO com.regunta.myapp.AppConfig [Timer-3] cacheValue(): reading ... from the database
+2020-05-04 11:48:13,440 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 11:48:20,240 INFO com.regunta.myapp.AppConfig [Timer-2] cacheValue(): reading ... from the database
+2020-05-04 11:48:35,927 INFO com.regunta.myapp.AppConfig [Timer-1] cacheValue(): reading ... from the database
+2020-05-04 11:48:47,352 INFO com.regunta.myapp.AppConfig [Timer-3] cacheValue(): reading ... from the database
+2020-05-04 11:49:13,447 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 11:49:20,244 INFO com.regunta.myapp.AppConfig [Timer-2] cacheValue(): reading ... from the database
+2020-05-04 11:49:35,933 INFO com.regunta.myapp.AppConfig [Timer-1] cacheValue(): reading ... from the database
+2020-05-04 11:49:47,357 INFO com.regunta.myapp.AppConfig [Timer-3] cacheValue(): reading ... from the database
+2020-05-04 11:50:13,450 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 11:50:20,245 INFO com.regunta.myapp.AppConfig [Timer-2] cacheValue(): reading ... from the database
+2020-05-04 11:50:35,939 INFO com.regunta.myapp.AppConfig [Timer-1] cacheValue(): reading ... from the database
+2020-05-04 11:50:47,361 INFO com.regunta.myapp.AppConfig [Timer-3] cacheValue(): reading ... from the database
+2020-05-04 12:01:27,651 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7546 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 12:01:27,655 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 12:01:27,656 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 12:01:30,578 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mySpringBootApp': Unsatisfied dependency expressed through field 'empRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.regunta.myapp.repository.EmployeeRepository.findPeopleDistinctByLastnameOrFirstName(java.lang.String,java.lang.String)! No property lastname found for type Employee! Did you mean 'lastName'?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.myapp.MySpringBootApp.main(MySpringBootApp.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.regunta.myapp.repository.EmployeeRepository.findPeopleDistinctByLastnameOrFirstName(java.lang.String,java.lang.String)! No property lastname found for type Employee! Did you mean 'lastName'?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.regunta.myapp.repository.EmployeeRepository.findPeopleDistinctByLastnameOrFirstName(java.lang.String,java.lang.String)! No property lastname found for type Employee! Did you mean 'lastName'?
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:106)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:211)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1054)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 34 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property lastname found for type Employee! Did you mean 'lastName'?
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:94)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:382)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:358)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:311)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:293)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:276)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:82)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	... 60 common frames omitted
+2020-05-04 12:02:28,202 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7597 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 12:02:28,206 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 12:02:28,207 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 12:02:30,590 INFO com.regunta.myapp.MySpringBootApp [restartedMain] post construct....
+2020-05-04 12:02:30,719 INFO com.regunta.myapp.MySpringBootApp [restartedMain] []
+2020-05-04 12:02:30,732 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=5, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=abc)]
+2020-05-04 12:02:30,741 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 12:02:31,151 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 3.169 seconds (JVM running for 3.693)
+2020-05-04 12:02:31,152 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-04 12:13:55,956 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8103 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 12:13:55,961 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 12:13:55,962 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 12:13:58,523 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mySpringBootApp': Unsatisfied dependency expressed through field 'empRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Method has to have one of the following return types! [interface java.util.List, interface org.springframework.data.domain.Page, interface org.springframework.data.domain.Slice]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.myapp.MySpringBootApp.main(MySpringBootApp.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Method has to have one of the following return types! [interface java.util.List, interface org.springframework.data.domain.Page, interface org.springframework.data.domain.Slice]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Method has to have one of the following return types! [interface java.util.List, interface org.springframework.data.domain.Page, interface org.springframework.data.domain.Slice]
+	at org.springframework.data.repository.query.QueryMethod.assertReturnTypeAssignable(QueryMethod.java:307)
+	at org.springframework.data.repository.query.QueryMethod.<init>(QueryMethod.java:87)
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1054)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 34 common frames omitted
+2020-05-04 12:15:11,523 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8176 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 12:15:11,527 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 12:15:11,528 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 12:15:14,221 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mySpringBootApp': Unsatisfied dependency expressed through field 'empRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Method has to have one of the following return types! [interface org.springframework.data.domain.Slice, interface java.util.List, interface org.springframework.data.domain.Page]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.myapp.MySpringBootApp.main(MySpringBootApp.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalStateException: Method has to have one of the following return types! [interface org.springframework.data.domain.Slice, interface java.util.List, interface org.springframework.data.domain.Page]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalStateException: Method has to have one of the following return types! [interface org.springframework.data.domain.Slice, interface java.util.List, interface org.springframework.data.domain.Page]
+	at org.springframework.data.repository.query.QueryMethod.assertReturnTypeAssignable(QueryMethod.java:307)
+	at org.springframework.data.repository.query.QueryMethod.<init>(QueryMethod.java:87)
+	at org.springframework.data.jpa.repository.query.JpaQueryMethod.<init>(JpaQueryMethod.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1054)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 34 common frames omitted
+2020-05-04 12:15:40,987 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8206 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 12:15:40,991 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 12:15:40,991 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 12:15:43,477 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mySpringBootApp': Unsatisfied dependency expressed through field 'empRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.regunta.myapp.repository.EmployeeRepository.findByLastname(java.lang.String,org.springframework.data.domain.Pageable)! No property lastname found for type Employee! Did you mean 'lastName'?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.myapp.MySpringBootApp.main(MySpringBootApp.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.regunta.myapp.repository.EmployeeRepository.findByLastname(java.lang.String,org.springframework.data.domain.Pageable)! No property lastname found for type Employee! Did you mean 'lastName'?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract org.springframework.data.domain.Page com.regunta.myapp.repository.EmployeeRepository.findByLastname(java.lang.String,org.springframework.data.domain.Pageable)! No property lastname found for type Employee! Did you mean 'lastName'?
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:103)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:106)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:211)
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:79)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lookupQuery(RepositoryFactorySupport.java:574)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$mapMethodsToQuery$1(RepositoryFactorySupport.java:567)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Collections$UnmodifiableCollection$1.forEachRemaining(Collections.java:1054)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.mapMethodsToQuery(RepositoryFactorySupport.java:569)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.lambda$new$0(RepositoryFactorySupport.java:559)
+	at java.base/java.util.Optional.map(Optional.java:265)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.<init>(RepositoryFactorySupport.java:559)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:332)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 34 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property lastname found for type Employee! Did you mean 'lastName'?
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:94)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:382)
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:358)
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:311)
+	at java.base/java.util.concurrent.ConcurrentMap.computeIfAbsent(ConcurrentMap.java:330)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:293)
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:276)
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:82)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:250)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:251)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:380)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:381)
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
+	... 60 common frames omitted
+2020-05-04 12:16:10,073 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8236 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 12:16:10,078 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 12:16:10,078 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 12:16:12,615 INFO com.regunta.myapp.MySpringBootApp [restartedMain] post construct....
+2020-05-04 12:16:12,744 INFO com.regunta.myapp.MySpringBootApp [restartedMain] []
+2020-05-04 12:16:12,759 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=5, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=abc)]
+2020-05-04 12:16:12,767 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 12:16:13,134 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 3.285 seconds (JVM running for 3.796)
+2020-05-04 12:16:13,136 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-04 12:16:24,612 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8237 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 12:16:24,616 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 12:16:24,616 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 12:16:27,254 INFO com.regunta.myapp.MySpringBootApp [restartedMain] post construct....
+2020-05-04 12:16:27,379 INFO com.regunta.myapp.MySpringBootApp [restartedMain] []
+2020-05-04 12:16:27,394 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=5, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=abc)]
+2020-05-04 12:16:27,403 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 12:16:27,811 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 3.47 seconds (JVM running for 4.022)
+2020-05-04 12:16:27,813 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-04 12:16:38,536 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8257 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 12:16:38,541 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 12:16:38,541 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 12:16:41,126 INFO com.regunta.myapp.MySpringBootApp [restartedMain] post construct....
+2020-05-04 12:16:41,247 INFO com.regunta.myapp.MySpringBootApp [restartedMain] []
+2020-05-04 12:16:41,261 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=5, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=abc)]
+2020-05-04 12:16:41,271 INFO com.regunta.myapp.AppConfig [Timer-0] cacheValue(): reading ... from the database
+2020-05-04 12:16:41,652 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 3.388 seconds (JVM running for 3.916)
+2020-05-04 12:16:41,654 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-04 12:16:47,163 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8257 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-04 12:16:47,163 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-04 12:16:47,164 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-04 12:16:47,532 INFO com.regunta.myapp.MySpringBootApp [restartedMain] post construct....
+2020-05-04 12:16:47,552 INFO com.regunta.myapp.MySpringBootApp [restartedMain] []
+2020-05-04 12:16:47,558 INFO com.regunta.myapp.MySpringBootApp [restartedMain] [Employee(id=5, firstName=Archana_updated, lastName=Regunta_updtaed, middleName=abc)]
+2020-05-04 12:16:47,564 INFO com.regunta.myapp.AppConfig [Timer-1] cacheValue(): reading ... from the database
+2020-05-04 12:16:47,686 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.549 seconds (JVM running for 9.95)
+2020-05-04 12:16:47,687 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...

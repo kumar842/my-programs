@@ -1,0 +1,1607 @@
+2020-05-02 16:49:44,781 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:49:44,785 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:49:44,786 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:49:48,249 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 3.767 seconds (JVM running for 4.488)
+2020-05-02 16:49:48,251 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:50:48,115 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:50:48,115 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:50:48,115 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:50:48,695 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.606 seconds (JVM running for 64.934)
+2020-05-02 16:50:48,697 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:51:56,795 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:51:56,796 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:51:56,796 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:51:57,287 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.659 seconds (JVM running for 133.538)
+2020-05-02 16:51:57,289 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:52:09,866 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:52:09,867 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:52:09,867 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:52:10,228 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.387 seconds (JVM running for 146.479)
+2020-05-02 16:52:10,229 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:54:22,818 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:54:22,819 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:54:22,819 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:54:23,165 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.539 seconds (JVM running for 279.416)
+2020-05-02 16:54:23,167 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:54:25,661 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:54:25,662 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:54:25,662 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:54:26,020 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.377 seconds (JVM running for 282.27)
+2020-05-02 16:54:26,022 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:54:58,745 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:54:58,745 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:54:58,745 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:54:59,054 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.332 seconds (JVM running for 315.304)
+2020-05-02 16:54:59,055 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:55:56,955 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:55:56,955 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:55:56,955 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:55:57,345 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.418 seconds (JVM running for 373.594)
+2020-05-02 16:55:57,346 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:57:09,464 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:57:09,464 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:57:09,464 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:57:09,794 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.513 seconds (JVM running for 446.043)
+2020-05-02 16:57:09,795 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:57:22,346 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:57:22,346 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:57:22,347 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:57:22,650 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.323 seconds (JVM running for 458.899)
+2020-05-02 16:57:22,651 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:57:47,261 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:57:47,261 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:57:47,261 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:57:47,547 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.307 seconds (JVM running for 483.796)
+2020-05-02 16:57:47,549 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 16:58:10,153 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 16:58:10,153 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 16:58:10,153 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 16:58:10,442 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.307 seconds (JVM running for 506.69)
+2020-05-02 16:58:10,442 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:13:14,233 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:13:14,234 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:13:14,234 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:13:14,561 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController' defined in file [/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes/com/regunta/notesapp/controller/EmployeeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The annotation @PathParam must define the attribute value
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The annotation @PathParam must define the attribute value
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The annotation @PathParam must define the attribute value
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at com.regunta.notesapp.controller.EmployeeController.<init>(EmployeeController.java:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+2020-05-02 22:13:25,059 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:13:25,059 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:13:25,059 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:13:25,262 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController' defined in file [/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes/com/regunta/notesapp/controller/EmployeeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The annotation @PathParam must define the attribute value
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The annotation @PathParam must define the attribute value
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The annotation @PathParam must define the attribute value
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at com.regunta.notesapp.controller.EmployeeController.<init>(EmployeeController.java:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+2020-05-02 22:13:34,772 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:13:34,772 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:13:34,772 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:13:34,959 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController' defined in file [/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes/com/regunta/notesapp/controller/EmployeeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The annotation @PathParam must define the attribute value
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The annotation @PathParam must define the attribute value
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The annotation @PathParam must define the attribute value
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at com.regunta.notesapp.controller.EmployeeController.<init>(EmployeeController.java:37)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+2020-05-02 22:14:01,577 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:14:01,577 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:14:01,577 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:14:01,815 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController' defined in file [/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes/com/regunta/notesapp/controller/EmployeeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from Employee to List<Employee>
+	The constructor EmployeeNotFoundException(Integer) is undefined
+
+	at com.regunta.notesapp.controller.EmployeeController.<init>(EmployeeController.java:39)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+2020-05-02 22:14:06,280 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:14:06,281 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:14:06,281 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:14:06,565 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.303 seconds (JVM running for 1706.801)
+2020-05-02 22:14:06,566 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:14:17,128 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:14:17,128 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:14:17,128 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:14:17,378 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.268 seconds (JVM running for 1717.614)
+2020-05-02 22:14:17,378 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:14:33,964 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:14:33,965 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:14:33,965 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:14:34,223 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.279 seconds (JVM running for 1734.459)
+2020-05-02 22:14:34,224 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:14:46,809 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:14:46,809 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:14:46,809 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:14:47,077 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.286 seconds (JVM running for 1747.313)
+2020-05-02 22:14:47,078 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:15:41,083 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:15:41,083 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:15:41,084 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:15:41,356 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.459 seconds (JVM running for 1801.592)
+2020-05-02 22:15:41,357 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:15:46,885 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 3929 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:15:46,886 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:15:46,886 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:15:47,139 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.272 seconds (JVM running for 1807.375)
+2020-05-02 22:15:47,140 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:18:30,796 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:18:30,800 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:18:30,800 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:18:34,365 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 3.868 seconds (JVM running for 4.621)
+2020-05-02 22:18:34,367 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:23:01,992 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:23:01,993 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:23:01,993 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:23:02,526 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.687 seconds (JVM running for 272.78)
+2020-05-02 22:23:02,528 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:23:34,259 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:23:34,259 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:23:34,260 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:23:34,619 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController' defined in file [/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes/com/regunta/notesapp/controller/EmployeeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	PostMapping cannot be resolved to a type
+	Syntax error, insert ";" to complete FieldDeclaration
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	PostMapping cannot be resolved to a type
+	Syntax error, insert ";" to complete FieldDeclaration
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	PostMapping cannot be resolved to a type
+	Syntax error, insert ";" to complete FieldDeclaration
+
+	at com.regunta.notesapp.controller.EmployeeController.<init>(EmployeeController.java:40)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+2020-05-02 22:24:04,284 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:24:04,285 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:24:04,285 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:24:04,716 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.458 seconds (JVM running for 334.969)
+2020-05-02 22:24:04,717 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:24:18,299 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:24:18,300 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:24:18,300 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:24:18,657 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.382 seconds (JVM running for 348.911)
+2020-05-02 22:24:18,659 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:25:55,103 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:25:55,103 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:25:55,103 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:25:55,441 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.536 seconds (JVM running for 445.629)
+2020-05-02 22:25:55,441 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:26:09,018 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:26:09,019 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:26:09,019 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:26:09,350 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.354 seconds (JVM running for 459.539)
+2020-05-02 22:26:09,351 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:26:47,101 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:26:47,101 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:26:47,101 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:26:47,436 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.356 seconds (JVM running for 497.624)
+2020-05-02 22:26:47,437 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:27:40,323 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:27:40,323 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:27:40,323 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:27:40,530 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	... 25 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.regunta.notesapp.entity.Employee
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:62)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:136)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:571)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 33 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 44 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "$", -> expected after this token
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete BlockStatements
+	employeeFirstNameMandatory cannot be resolved
+
+	at com.regunta.notesapp.entity.Employee.<init>(Employee.java:23)
+	... 50 common frames omitted
+2020-05-02 22:29:11,637 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:29:11,637 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:29:11,637 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:29:11,933 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.319 seconds (JVM running for 642.119)
+2020-05-02 22:29:11,934 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:32:31,792 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:32:31,793 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:32:31,793 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:32:31,997 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	... 25 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.regunta.notesapp.entity.Employee
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:62)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:136)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:571)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 33 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 44 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "$", -> expected after this token
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete BlockStatements
+	employeeFirstNameMandatory cannot be resolved
+
+	at com.regunta.notesapp.entity.Employee.<init>(Employee.java:23)
+	... 50 common frames omitted
+2020-05-02 22:34:01,955 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:34:01,956 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:34:01,956 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:34:02,146 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	... 25 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.regunta.notesapp.entity.Employee
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:62)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:136)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:571)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 33 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 44 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "$", -> expected after this token
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete BlockStatements
+	employeeFirstNameMandatory cannot be resolved
+
+	at com.regunta.notesapp.entity.Employee.<init>(Employee.java:23)
+	... 50 common frames omitted
+2020-05-02 22:34:07,611 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:34:07,612 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:34:07,612 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:34:07,814 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	... 25 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.regunta.notesapp.entity.Employee
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:62)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:136)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:571)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 33 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 44 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "$", -> expected after this token
+	Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+	Syntax error, insert ";" to complete BlockStatements
+	employeeFirstNameMandatory cannot be resolved
+
+	at com.regunta.notesapp.entity.Employee.<init>(Employee.java:23)
+	... 50 common frames omitted
+2020-05-02 22:34:34,547 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:34:34,547 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:34:34,547 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:34:34,827 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.435 seconds (JVM running for 965.01)
+2020-05-02 22:34:34,828 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:35:20,591 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:35:20,592 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:35:20,592 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:35:20,876 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.309 seconds (JVM running for 1011.059)
+2020-05-02 22:35:20,877 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:35:39,473 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:35:39,473 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:35:39,473 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:35:39,779 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.33 seconds (JVM running for 1029.961)
+2020-05-02 22:35:39,780 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:36:01,416 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:36:01,416 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:36:01,416 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:36:01,703 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.306 seconds (JVM running for 1051.885)
+2020-05-02 22:36:01,703 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:36:19,305 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:36:19,305 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:36:19,306 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:36:19,480 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	... 25 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.regunta.notesapp.entity.Employee
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:62)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:136)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:571)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124)
+	at jdk.internal.reflect.GeneratedConstructorAccessor253.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 33 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 43 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	EMPLOYEE_FIRST_NAME_MANDATORY cannot be resolved or is not a field
+
+	at com.regunta.notesapp.entity.Employee.<init>(Employee.java:25)
+	... 49 common frames omitted
+2020-05-02 22:36:50,078 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:36:50,078 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:36:50,078 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:36:50,261 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	... 25 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.regunta.notesapp.entity.Employee
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:62)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:136)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:571)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124)
+	at jdk.internal.reflect.GeneratedConstructorAccessor253.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 33 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 43 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	NotEmpty cannot be resolved to a type
+	Syntax error on token "=", MemberValue expected after this token
+
+	at com.regunta.notesapp.entity.Employee.<init>(Employee.java:21)
+	... 49 common frames omitted
+2020-05-02 22:37:21,900 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:37:21,900 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:37:21,900 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:37:22,099 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	... 25 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.regunta.notesapp.entity.Employee
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:62)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:136)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:571)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124)
+	at jdk.internal.reflect.GeneratedConstructorAccessor253.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 33 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 43 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	NotEmpty cannot be resolved to a type
+	Syntax error on token "=", MemberValue expected after this token
+
+	at com.regunta.notesapp.entity.Employee.<init>(Employee.java:21)
+	... 49 common frames omitted
+2020-05-02 22:37:29,564 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:37:29,564 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:37:29,564 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:37:29,751 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1108)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:868)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:403)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:378)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 21 common frames omitted
+Caused by: org.hibernate.MappingException: Could not get constructor for org.hibernate.persister.entity.SingleTableEntityPersister
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:123)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:77)
+	at org.hibernate.metamodel.internal.MetamodelImpl.initialize(MetamodelImpl.java:181)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:305)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:462)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1249)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:391)
+	... 25 common frames omitted
+Caused by: org.hibernate.InstantiationException: could not instantiate test object : com.regunta.notesapp.entity.Employee
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:43)
+	at org.hibernate.engine.internal.UnsavedValueFactory.getUnsavedIdentifierValue(UnsavedValueFactory.java:68)
+	at org.hibernate.tuple.PropertyFactory.buildIdentifierAttribute(PropertyFactory.java:62)
+	at org.hibernate.tuple.entity.EntityMetamodel.<init>(EntityMetamodel.java:136)
+	at org.hibernate.persister.entity.AbstractEntityPersister.<init>(AbstractEntityPersister.java:571)
+	at org.hibernate.persister.entity.SingleTableEntityPersister.<init>(SingleTableEntityPersister.java:124)
+	at jdk.internal.reflect.GeneratedConstructorAccessor253.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.persister.internal.PersisterFactoryImpl.createEntityPersister(PersisterFactoryImpl.java:96)
+	... 33 common frames omitted
+Caused by: java.lang.reflect.InvocationTargetException: null
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.hibernate.engine.internal.UnsavedValueFactory.instantiate(UnsavedValueFactory.java:40)
+	... 43 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	NotEmpty cannot be resolved to a type
+
+	at com.regunta.notesapp.entity.Employee.<init>(Employee.java:23)
+	... 49 common frames omitted
+2020-05-02 22:37:36,208 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:37:36,209 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:37:36,209 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:37:36,492 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.299 seconds (JVM running for 1146.674)
+2020-05-02 22:37:36,493 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:37:54,097 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:37:54,097 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:37:54,098 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:37:54,373 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.297 seconds (JVM running for 1164.554)
+2020-05-02 22:37:54,374 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:41:04,226 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:41:04,226 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:41:04,227 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:41:04,426 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController' defined in file [/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes/com/regunta/notesapp/controller/EmployeeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method ifPresentOrElse(Consumer<? super Employee>, Runnable) in the type Optional<Employee> is not applicable for the arguments ((<no type> emp) -> {}, () -> {})
+	Void methods cannot return a value
+	returne cannot be resolved to a type
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method ifPresentOrElse(Consumer<? super Employee>, Runnable) in the type Optional<Employee> is not applicable for the arguments ((<no type> emp) -> {}, () -> {})
+	Void methods cannot return a value
+	returne cannot be resolved to a type
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method ifPresentOrElse(Consumer<? super Employee>, Runnable) in the type Optional<Employee> is not applicable for the arguments ((<no type> emp) -> {}, () -> {})
+	Void methods cannot return a value
+	returne cannot be resolved to a type
+
+	at com.regunta.notesapp.controller.EmployeeController.<init>(EmployeeController.java:52)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+2020-05-02 22:41:13,912 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:41:13,913 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:41:13,913 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:41:14,102 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeController' defined in file [/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes/com/regunta/notesapp/controller/EmployeeController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method ifPresentOrElse(Consumer<? super Employee>, Runnable) in the type Optional<Employee> is not applicable for the arguments ((<no type> emp) -> {}, () -> {})
+	Void methods cannot return a value
+	emp cannot be resolved to a variable
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.regunta.notesapp.controller.EmployeeController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The method ifPresentOrElse(Consumer<? super Employee>, Runnable) in the type Optional<Employee> is not applicable for the arguments ((<no type> emp) -> {}, () -> {})
+	Void methods cannot return a value
+	emp cannot be resolved to a variable
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:213)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312)
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method ifPresentOrElse(Consumer<? super Employee>, Runnable) in the type Optional<Employee> is not applicable for the arguments ((<no type> emp) -> {}, () -> {})
+	Void methods cannot return a value
+	emp cannot be resolved to a variable
+
+	at com.regunta.notesapp.controller.EmployeeController.<init>(EmployeeController.java:52)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200)
+	... 24 common frames omitted
+2020-05-02 22:49:29,864 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:49:29,864 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:49:29,864 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:49:30,132 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.45 seconds (JVM running for 1860.3)
+2020-05-02 22:49:30,132 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:51:51,605 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:51:51,605 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:51:51,605 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:51:51,894 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.439 seconds (JVM running for 2002.06)
+2020-05-02 22:51:51,895 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:53:57,268 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:53:57,269 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:53:57,269 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:53:57,544 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.431 seconds (JVM running for 2127.709)
+2020-05-02 22:53:57,545 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:54:11,302 ERROR org.apache.catalina.core.ContainerBase.[Tomcat-11].[localhost].[/].[dispatcherServlet] [http-nio-8080-exec-3] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.EmptyResultDataAccessException: No class com.regunta.notesapp.entity.Employee entity with id 12 exists!] with root cause
+org.springframework.dao.EmptyResultDataAccessException: No class com.regunta.notesapp.entity.Employee entity with id 12 exists!
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.lambda$deleteById$0(SimpleJpaRepository.java:176)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:408)
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.deleteById(SimpleJpaRepository.java:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:371)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:204)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:657)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.doInvoke(RepositoryFactorySupport.java:621)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$QueryExecutorMethodInterceptor.invoke(RepositoryFactorySupport.java:605)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:366)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:99)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:178)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:212)
+	at com.sun.proxy.$Proxy206.deleteById(Unknown Source)
+	at com.regunta.notesapp.controller.EmployeeController.delete(EmployeeController.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:888)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:931)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:666)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1579)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+2020-05-02 22:55:31,588 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:55:31,589 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:55:31,589 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:55:31,858 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.29 seconds (JVM running for 2222.03)
+2020-05-02 22:55:31,859 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:57:48,239 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:57:48,240 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:57:48,240 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:57:48,512 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.429 seconds (JVM running for 2358.682)
+2020-05-02 22:57:48,512 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:58:01,086 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:58:01,087 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:58:01,087 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:58:01,354 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.289 seconds (JVM running for 2371.524)
+2020-05-02 22:58:01,354 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:58:11,909 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:58:11,909 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:58:11,909 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:58:12,167 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.274 seconds (JVM running for 2382.337)
+2020-05-02 22:58:12,167 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:58:19,693 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:58:19,693 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:58:19,693 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:58:19,875 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'empRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.regunta.myapp.entity.Employee
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.regunta.myapp.entity.Employee
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.regunta.myapp.entity.Employee
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:582)
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:74)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:211)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:161)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:144)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:69)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:312)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 34 common frames omitted
+2020-05-02 22:58:29,346 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:58:29,347 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:58:29,347 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:58:29,527 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'empRepository'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.regunta.myapp.entity.Employee
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1429)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.notesapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'employeeRepository': Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class com.regunta.myapp.entity.Employee
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1803)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1287)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:636)
+	... 24 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.regunta.myapp.entity.Employee
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:582)
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85)
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:74)
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:211)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:161)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:144)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:69)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:312)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:297)
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:212)
+	at org.springframework.data.util.Lazy.get(Lazy.java:94)
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:300)
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1862)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1799)
+	... 34 common frames omitted
+2020-05-02 22:58:47,071 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 5618 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:58:47,072 DEBUG com.regunta.notesapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:58:47,072 INFO com.regunta.notesapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:58:47,313 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field empRepository in com.regunta.myapp.controller.EmployeeController required a bean of type 'com.regunta.myapp.repository.EmployeeRepository' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.regunta.myapp.repository.EmployeeRepository' in your configuration.
+
+2020-05-02 22:59:02,120 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:59:02,125 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:59:02,125 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:59:04,993 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 3.126 seconds (JVM running for 3.653)
+2020-05-02 22:59:04,994 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:59:41,737 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:59:41,745 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:59:41,750 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 22:59:42,254 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.545 seconds (JVM running for 40.914)
+2020-05-02 22:59:42,256 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 22:59:59,846 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 22:59:59,846 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 22:59:59,846 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:00:00,246 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.423 seconds (JVM running for 58.905)
+2020-05-02 23:00:00,247 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:01:03,204 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:01:03,204 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:01:03,204 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:01:03,588 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.411 seconds (JVM running for 122.246)
+2020-05-02 23:01:03,588 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:04:27,328 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:04:27,328 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:04:27,329 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:04:27,713 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.545 seconds (JVM running for 326.369)
+2020-05-02 23:04:27,714 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:04:34,239 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:04:34,239 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:04:34,240 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:04:34,623 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.411 seconds (JVM running for 333.279)
+2020-05-02 23:04:34,624 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:04:45,178 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:04:45,179 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:04:45,179 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:04:45,813 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.663 seconds (JVM running for 344.469)
+2020-05-02 23:04:45,815 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:05:22,494 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:05:22,496 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:05:22,497 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:05:22,971 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.503 seconds (JVM running for 381.626)
+2020-05-02 23:05:22,972 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:05:41,556 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:05:41,556 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:05:41,556 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:05:42,026 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.494 seconds (JVM running for 400.682)
+2020-05-02 23:05:42,028 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:06:17,768 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:06:17,768 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:06:17,768 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:06:18,201 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.455 seconds (JVM running for 436.856)
+2020-05-02 23:06:18,202 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:06:32,787 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:06:32,788 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:06:32,788 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:06:33,086 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.319 seconds (JVM running for 451.741)
+2020-05-02 23:06:33,087 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:07:23,910 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:07:23,910 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:07:23,910 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:07:24,192 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.301 seconds (JVM running for 502.846)
+2020-05-02 23:07:24,192 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:07:40,793 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:07:40,793 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:07:40,793 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:07:41,094 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.324 seconds (JVM running for 519.747)
+2020-05-02 23:07:41,094 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:11:05,895 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:11:05,896 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:11:05,896 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:11:05,908 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.regunta.myapp.MySpringBootApp]; nested exception is java.lang.IllegalArgumentException: Could not find class [LogInterceptor]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:184)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:325)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:242)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.myapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not find class [LogInterceptor]
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:327)
+	at org.springframework.core.annotation.TypeMappedAnnotation.adapt(TypeMappedAnnotation.java:469)
+	at org.springframework.core.annotation.TypeMappedAnnotation.getValue(TypeMappedAnnotation.java:403)
+	at org.springframework.core.annotation.TypeMappedAnnotation.asMap(TypeMappedAnnotation.java:288)
+	at org.springframework.core.annotation.TypeMappedAnnotation.adaptValueForMapOptions(TypeMappedAnnotation.java:319)
+	at org.springframework.core.annotation.TypeMappedAnnotation.asMap(TypeMappedAnnotation.java:291)
+	at org.springframework.core.annotation.AbstractMergedAnnotation.asAnnotationAttributes(AbstractMergedAnnotation.java:193)
+	at org.springframework.core.type.AnnotatedTypeMetadata.getAnnotationAttributes(AnnotatedTypeMetadata.java:106)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:285)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:100)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:79)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:280)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:290)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:202)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:170)
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: LogInterceptor
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:415)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:277)
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:317)
+	... 34 common frames omitted
+2020-05-02 23:11:17,407 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 7326 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:11:17,407 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:11:17,408 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:11:17,415 ERROR org.springframework.boot.SpringApplication [restartedMain] Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.regunta.myapp.MySpringBootApp]; nested exception is java.lang.IllegalArgumentException: Could not find class [LogInterceptor]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:184)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:325)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:242)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:275)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:95)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.regunta.myapp.MySpringBootApp.main(MySpringBootApp.java:21)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: Could not find class [LogInterceptor]
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:327)
+	at org.springframework.core.annotation.TypeMappedAnnotation.adapt(TypeMappedAnnotation.java:469)
+	at org.springframework.core.annotation.TypeMappedAnnotation.getValue(TypeMappedAnnotation.java:403)
+	at org.springframework.core.annotation.TypeMappedAnnotation.asMap(TypeMappedAnnotation.java:288)
+	at org.springframework.core.annotation.TypeMappedAnnotation.adaptValueForMapOptions(TypeMappedAnnotation.java:319)
+	at org.springframework.core.annotation.TypeMappedAnnotation.asMap(TypeMappedAnnotation.java:291)
+	at org.springframework.core.annotation.AbstractMergedAnnotation.asAnnotationAttributes(AbstractMergedAnnotation.java:193)
+	at org.springframework.core.type.AnnotatedTypeMetadata.getAnnotationAttributes(AnnotatedTypeMetadata.java:106)
+	at org.springframework.context.annotation.AnnotationConfigUtils.attributesFor(AnnotationConfigUtils.java:285)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.determineBeanNameFromAnnotation(AnnotationBeanNameGenerator.java:100)
+	at org.springframework.context.annotation.AnnotationBeanNameGenerator.generateBeanName(AnnotationBeanNameGenerator.java:79)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:280)
+	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:132)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:290)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:245)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:202)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:170)
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: LogInterceptor
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:415)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:277)
+	at org.springframework.util.ClassUtils.resolveClassName(ClassUtils.java:317)
+	... 34 common frames omitted
+2020-05-02 23:25:23,619 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8497 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:25:23,623 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:25:23,624 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:25:26,822 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 3.471 seconds (JVM running for 4.205)
+2020-05-02 23:25:26,824 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:25:31,922 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [preHandle][org.apache.catalina.connector.RequestFacade@d302883][DELETE]/employees/12?requestId=123&_psip=0:0:0:0:0:0:0:1
+2020-05-02 23:25:31,972 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [preHandle][org.apache.catalina.core.ApplicationHttpRequest@5518f20a][DELETE]/error?requestId=123&_psip=0:0:0:0:0:0:0:1
+2020-05-02 23:25:32,031 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [postHandle][org.apache.catalina.core.ApplicationHttpRequest@5518f20a]
+2020-05-02 23:26:45,788 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8497 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:26:45,788 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:26:45,788 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:26:46,359 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.598 seconds (JVM running for 83.741)
+2020-05-02 23:26:46,361 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:26:49,438 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [preHandle][org.apache.catalina.connector.RequestFacade@73a7b6d2][DELETE]/employees/12?requestId=123
+2020-05-02 23:26:49,446 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [preHandle][org.apache.catalina.core.ApplicationHttpRequest@14e7802e][DELETE]/error?requestId=123
+2020-05-02 23:26:49,451 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [postHandle][org.apache.catalina.core.ApplicationHttpRequest@14e7802e]
+2020-05-02 23:27:50,399 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8497 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:27:50,399 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:27:50,400 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:27:50,966 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.737 seconds (JVM running for 148.347)
+2020-05-02 23:27:50,967 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:27:53,996 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [postHandle][org.apache.catalina.core.ApplicationHttpRequest@313e8a41]
+2020-05-02 23:30:23,597 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8497 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:30:23,597 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:30:23,597 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:30:23,970 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.546 seconds (JVM running for 301.349)
+2020-05-02 23:30:23,971 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:30:27,572 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [preHandle][org.apache.catalina.connector.RequestFacade@2811cf92][DELETE]/employees/12?requestId=123
+2020-05-02 23:30:27,581 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [preHandle][org.apache.catalina.core.ApplicationHttpRequest@8086532][DELETE]/error?requestId=123
+2020-05-02 23:30:27,584 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [postHandle][org.apache.catalina.core.ApplicationHttpRequest@8086532]
+2020-05-02 23:30:49,662 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-3] [preHandle][org.apache.catalina.connector.RequestFacade@2811cf92][GET]/employees/12?requestId=123
+2020-05-02 23:30:49,667 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-3] [preHandle][org.apache.catalina.core.ApplicationHttpRequest@1f9866d4][GET]/error?requestId=123
+2020-05-02 23:30:49,669 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-3] [postHandle][org.apache.catalina.core.ApplicationHttpRequest@1f9866d4]
+2020-05-02 23:31:29,848 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8497 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:31:29,848 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:31:29,848 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:31:30,211 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.387 seconds (JVM running for 367.589)
+2020-05-02 23:31:30,212 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:32:08,289 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-4] [preHandle][org.apache.catalina.connector.RequestFacade@75e9647][POST]/employees?requestId=123
+2020-05-02 23:32:29,551 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-6] [preHandle][org.apache.catalina.connector.RequestFacade@75e9647][POST]/employees?requestId=123
+2020-05-02 23:34:06,924 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8497 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:34:06,925 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:34:06,925 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:34:07,269 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.584 seconds (JVM running for 524.645)
+2020-05-02 23:34:07,270 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:34:11,858 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-2] [preHandle] [POST] /employees?requestId=123
+2020-05-02 23:34:21,227 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-4] [preHandle] [POST] /employees?requestId=123
+2020-05-02 23:34:21,269 INFO com.regunta.myapp.log.LoggerInterceptor [http-nio-8080-exec-4] [postHandle][org.apache.catalina.connector.RequestFacade@737245a2]
+2020-05-02 23:35:15,263 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8497 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:35:15,263 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:35:15,263 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:35:15,616 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 0.377 seconds (JVM running for 592.991)
+2020-05-02 23:35:15,617 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...
+2020-05-02 23:35:33,481 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Starting MySpringBootApp on P4355.local with PID 8939 (/Users/rregunta/workspace/my-programs/my-spring-boot/target/classes started by rregunta in /Users/rregunta/workspace/my-programs/my-spring-boot)
+2020-05-02 23:35:33,491 DEBUG com.regunta.myapp.MySpringBootApp [restartedMain] Running with Spring Boot v2.2.1.RELEASE, Spring v5.2.1.RELEASE
+2020-05-02 23:35:33,491 INFO com.regunta.myapp.MySpringBootApp [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-02 23:35:38,229 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Started MySpringBootApp in 5.159 seconds (JVM running for 6.102)
+2020-05-02 23:35:38,231 INFO com.regunta.myapp.MySpringBootApp [restartedMain] Application started...

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<property name="HOME_LOG" value="var/log/notesapp/app.log" />
+
+	<appender name="FILE-ROLLING"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${HOME_LOG}</file>
+
+		<rollingPolicy
+			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+			<fileNamePattern>var/log/notesapp/archived/app.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<!-- each archived file, size max 10MB -->
+			<maxFileSize>10MB</maxFileSize>
+			<!-- total size of all archive files, if total size > 20GB, it will delete 
+				old archived file -->
+			<totalSizeCap>20GB</totalSizeCap>
+			<!-- 60 days to keep -->
+			<maxHistory>60</maxHistory>
+		</rollingPolicy>
+
+
+		<encoder>
+			<pattern>%d %p %c{1.} [%t] %m%n</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="STDOUT"
+		class="ch.qos.logback.core.ConsoleAppender">
+		<!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder 
+			by default -->
+		<encoder>
+			<pattern>%-4relative [%thread] %-5level %logger{35} - %msg %n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="SYSLOG"
+		class="ch.qos.logback.classic.net.SyslogAppender">
+		<syslogHost>3.219.192.129</syslogHost>
+		<facility>LOCAL0</facility>
+		<port>8516</port>
+		<suffixPattern>notesapp - %m</suffixPattern>
+	</appender>
+
+	<logger name="com.regunta" level="debug" additivity="false">
+		<appender-ref ref="FILE-ROLLING" />
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="SYSLOG" />
+
+	</logger>
+
+	<root level="error">
+		<appender-ref ref="FILE-ROLLING" />
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="SYSLOG" />
+	</root>
+
+</configuration>
