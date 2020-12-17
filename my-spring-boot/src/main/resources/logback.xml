@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-	<property name="HOME_LOG" value="var/log/notesapp/app.log" />
+	<property name="HOME_LOG" value="var/log/my-spring-boot/app.log" />
 
 	<appender name="FILE-ROLLING"
 		class="ch.qos.logback.core.rolling.RollingFileAppender">
@@ -9,7 +9,7 @@
 
 		<rollingPolicy
 			class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-			<fileNamePattern>var/log/notesapp/archived/app.%d{yyyy-MM-dd}.%i.log
+			<fileNamePattern>var/log/my-spring-boot/archived/app.%d{yyyy-MM-dd}.%i.log
 			</fileNamePattern>
 			<!-- each archived file, size max 10MB -->
 			<maxFileSize>10MB</maxFileSize>
@@ -41,7 +41,7 @@
 		<syslogHost>3.219.192.129</syslogHost>
 		<facility>LOCAL0</facility>
 		<port>8516</port>
-		<suffixPattern>notesapp - %m</suffixPattern>
+		<suffixPattern>my-spring-boot - %m</suffixPattern>
 	</appender>
 
 	<logger name="com.regunta" level="debug" additivity="false">

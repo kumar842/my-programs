@@ -56,6 +56,7 @@ public class EmployeeController {
 		}
 		
 		return employeeOptional.get();
+		//return findById(id, config.getEntityIsFetchOnlyValid()).get();
 	}
 	
 	@PostMapping()

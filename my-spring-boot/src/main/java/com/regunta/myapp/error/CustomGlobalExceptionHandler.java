@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
 import javax.servlet.http.HttpServletResponse;
@@ -28,7 +29,11 @@ public class CustomGlobalExceptionHandler extends ResponseEntityExceptionHandler
         response.sendError(HttpStatus.NOT_FOUND.value());
     }
     
- // Let Spring BasicErrorController handle the exception, we just override the status code
+    @ExceptionHandler(NoSuchElementException.class)
+    public void springHandleNoSuchElement(HttpServletResponse response) throws IOException {
+        response.sendError(HttpStatus.NOT_FOUND.value());
+    }
+    
     @ExceptionHandler(UnAuthorizedException.class)
     public void springHandleUnAuthorized(HttpServletResponse response) throws IOException {
         response.sendError(HttpStatus.UNAUTHORIZED.value());
