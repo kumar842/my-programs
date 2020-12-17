@@ -9,7 +9,7 @@
 - logging(slf4j) rolling based logging(10MB, day wise)
 - enable CORS
 - AppConfiguration.java - load conf. from database & cache it... interval based caching
-- @postconstruct example
+- @PostConstruct example
 - Building an executable jar
 - ORM - Base Entity
 - ORM - JPA - mysql
@@ -21,7 +21,7 @@
 - Running it as a service
 - spring security
 - session management
-- Junit
+- Junit test cases
 - Schedule
 - CRUD UI with Vaadin
 - Docker
@@ -35,7 +35,7 @@
 - swagger
 - Actuator
 - properties
-	- context path
+	- context path - Done
 	- jpa database conf.
 	- date format
 	- server.port

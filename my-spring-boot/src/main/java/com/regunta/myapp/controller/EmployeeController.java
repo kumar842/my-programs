@@ -60,7 +60,8 @@ public class EmployeeController {
 	
 	@PostMapping()
 	Employee save(@RequestBody @Validated final Employee employee) {
-		employee.setCreatedBy("rajkuamr");//TODO:
+		//validate the employee
+		employee.setCreatedBy("rajkuamr");//TODO: get the username from auth-token
 		employee.setCreatedOn(Calendar.getInstance().getTime());
 		employee.setIsValid(Boolean.TRUE);
 		return empRepository.save(employee);
@@ -79,7 +80,7 @@ public class EmployeeController {
 		empEntity.setLastName(employee.getLastName());
 		empEntity.setMiddleName(employee.getMiddleName());
 		
-		empEntity.setLastModifiedBy("rajkumar" ); //TODO:
+		empEntity.setLastModifiedBy("rajkumar" ); //TODO: get the username from auth-token
 		empEntity.setLastModifiedOn(Calendar.getInstance().getTime());
 		
 		return this.empRepository.save(empEntity);

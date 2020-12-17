@@ -21,7 +21,7 @@ public class HealthController {
 	 * @return the response entity
 	 */
 	@GetMapping("/health")
-	public ResponseEntity<?> health() {
+	public ResponseEntity<String> health() {
 		return new ResponseEntity<String>("OK", HttpStatus.OK);
 	}
 }

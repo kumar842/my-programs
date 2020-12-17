@@ -29,8 +29,6 @@ import lombok.extern.slf4j.Slf4j;
  * The Class LoggingService.
  */
 @Component
-
-/** The Constant log. */
 @Slf4j
 public class LoggerService {
 
@@ -47,7 +45,8 @@ public class LoggerService {
 		stringBuilder.append("REQUEST ");
 		stringBuilder.append("method=[").append(httpServletRequest.getMethod()).append("] ");
 		stringBuilder.append("path=[").append(httpServletRequest.getRequestURI()).append("] ");
-		stringBuilder.append("headers=[").append(buildHeadersMap(httpServletRequest)).append("] ");
+		//commented below as it's printing the x-api-key in logs
+		//stringBuilder.append("headers=[").append(buildHeadersMap(httpServletRequest)).append("] ");
 
 		if (!parameters.isEmpty()) {
 			stringBuilder.append("parameters=[").append(parameters).append("] ");

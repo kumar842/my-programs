@@ -35,7 +35,7 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 	List<Employee> findByLastNameOrderByFirstNameAsc(String lastName);
 	
 	//List<Employee> findByAddressZipCode(ZipCode zipCode); emp.address.zipCode
-	//List<Employee> findByAddress_ZipCode(ZipCode zipCode); emp.address.zipCode //To resolve this ambiguity
+	//List<Employee> findByAddress_ZipCode(ZipCode zipCode); emp.address.zipCode //TODO: resolve this ambiguity
 	
 	//Page<Employee> findByLastName(String lastName, Pageable pageable);
 	//Slice<Employee> findByLastName(String lastName, Pageable pageable);
