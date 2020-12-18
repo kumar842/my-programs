@@ -5,7 +5,6 @@ import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.NoSuchElementException;
 import java.util.stream.Collectors;
 
 import javax.servlet.http.HttpServletResponse;
@@ -26,11 +25,6 @@ public class CustomGlobalExceptionHandler extends ResponseEntityExceptionHandler
     // Let Spring BasicErrorController handle the exception, we just override the status code
     @ExceptionHandler(EmployeeNotFoundException.class)
     public void springHandleNotFound(HttpServletResponse response) throws IOException {
-        response.sendError(HttpStatus.NOT_FOUND.value());
-    }
-    
-    @ExceptionHandler(NoSuchElementException.class)
-    public void springHandleNoSuchElement(HttpServletResponse response) throws IOException {
         response.sendError(HttpStatus.NOT_FOUND.value());
     }
     

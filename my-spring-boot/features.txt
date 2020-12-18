@@ -13,7 +13,7 @@
 - Building an executable jar
 - ORM - Base Entity
 - ORM - JPA - mysql
-
+- Caching
 
 - readMe
 - RBAC
@@ -29,14 +29,13 @@
 - websocket
 - REST API with file upload
 - JMS
-- Caching
 - API documentation REST Docs
 - Paginated APIs
 - swagger
 - Actuator
 - properties
 	- context path - Done
-	- jpa database conf.
+	- jpa database conf. - Done
 	- date format
 	- server.port - Done
 	- management.port etc.

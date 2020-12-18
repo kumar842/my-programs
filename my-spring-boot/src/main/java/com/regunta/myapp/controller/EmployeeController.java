@@ -40,7 +40,7 @@ public class EmployeeController {
 	@Autowired
 	private AppConfig config;
 	
-	@GetMapping()
+	@GetMapping
 	List<Employee> findAll() {
 		return BooleanUtils.isTrue(config.getEntityIsFetchOnlyValid())?
 				empRepository.findByIsValid(Boolean.TRUE) : 
@@ -52,7 +52,7 @@ public class EmployeeController {
 		return this.findEntityById(id);
 	}
 	
-	@PostMapping()
+	@PostMapping
 	Employee save(@RequestBody @Validated final Employee employee) {
 		//validate the employee
 		

@@ -15,13 +15,13 @@ import lombok.Data;
  *
  */
 @Data
-//@Entity
 @MappedSuperclass
 public class BaseEntity {
 	private String createdBy;
 	private Date createdOn;
 	private String lastModifiedBy;
 	private Date lastModifiedOn;
+	
 	@JsonIgnore
 	private Boolean isValid;
 	
