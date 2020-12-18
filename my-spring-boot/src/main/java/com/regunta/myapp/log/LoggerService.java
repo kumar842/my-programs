@@ -1,24 +1,20 @@
-/*******************************************************************************
- * Copyright (C) Proterra - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited
- * Proprietary and confidential
- * Source code can not be copied and/or distributed without the express
- * permission of Proterra
- * 
- * @author Nilesh Darade (NDarade@protera.com)
- ******************************************************************************/
 package com.regunta.myapp.log;
 
+import java.io.ByteArrayOutputStream;
 import java.util.Collection;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
+import javax.security.auth.x500.X500Principal;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.lang.exception.ExceptionUtils;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.util.ContentCachingResponseWrapper;
 
@@ -42,19 +38,18 @@ public class LoggerService {
 		StringBuilder stringBuilder = new StringBuilder();
 		Map<String, String> parameters = buildParametersMap(httpServletRequest);
 
-		stringBuilder.append("REQUEST ");
-		stringBuilder.append("method=[").append(httpServletRequest.getMethod()).append("] ");
-		stringBuilder.append("path=[").append(httpServletRequest.getRequestURI()).append("] ");
-		//commented below as it's printing the x-api-key in logs
-		//stringBuilder.append("headers=[").append(buildHeadersMap(httpServletRequest)).append("] ");
+		stringBuilder.append(String.format("REQUEST method=[%s] path[%s] ", httpServletRequest.getMethod(),
+				httpServletRequest.getRequestURI()));
+		//Commented the below as it's printing sensitive information like the x-api-key etc.
+		//stringBuilder.append(String.format("headers=[%s] ", buildHeadersMap(httpServletRequest)));
 
 		if (!parameters.isEmpty()) {
-			stringBuilder.append("parameters=[").append(parameters).append("] ");
+			stringBuilder.append(String.format("parameters=[%s] ", parameters));
 		}
 		
 		String body = requestBody(httpServletRequest);
 		if (body != null) {
-			stringBuilder.append("body=[" + body + "]");
+			stringBuilder.append(String.format("requestBody=[%s]", body));
 		}
 
 		log.info(stringBuilder.toString());
@@ -70,11 +65,10 @@ public class LoggerService {
 	public void logResponse(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) {
 		StringBuilder stringBuilder = new StringBuilder();
 
-		stringBuilder.append("RESPONSE ");
-		stringBuilder.append("method=[").append(httpServletRequest.getMethod()).append("] ");
-		stringBuilder.append("path=[").append(httpServletRequest.getRequestURI()).append("] ");
-		stringBuilder.append("responseHeaders=[").append(buildHeadersMap(httpServletResponse)).append("] ");
-		stringBuilder.append("responseBody=[").append(responseBody(httpServletResponse)).append("] ");
+		stringBuilder.append(String.format("RESPONSE method=[%s] path[%s] ", httpServletRequest.getMethod(),
+				httpServletRequest.getRequestURI()));
+		stringBuilder.append(String.format("responseHeaders=[%s] ", buildHeadersMap(httpServletResponse)));
+		stringBuilder.append(String.format("responseBody=[%s]", responseBody(httpServletResponse)));//TODO: handle the error case
 
 		log.info(stringBuilder.toString());
 	}
@@ -124,14 +118,18 @@ public class LoggerService {
 	 * @return the map
 	 */
 	private Map<String, String> buildHeadersMap(HttpServletResponse response) {
-		Map<String, String> map = new HashMap<>();
-
-		Collection<String> headerNames = response.getHeaderNames();
-		for (String header : headerNames) {
-			map.put(header, response.getHeader(header));
-		}
-
-		return map;
+//		Map<String, String> map = new HashMap<>();
+//
+//		Collection<String> headerNames = response.getHeaderNames();
+//		for (String header : headerNames) {
+//			map.put(header, response.getHeader(header));
+//		}
+		
+		System.out.println(response.getHeaderNames());
+		
+		return response.getHeaderNames().stream().collect(Collectors.toSet()).stream().collect(Collectors.toMap(header -> header, header -> ""));
+		
+		//return map;
 	}
 	
 	/**
@@ -151,19 +149,23 @@ public class LoggerService {
 
 	public String responseBody(HttpServletResponse response) {
 		try {
-			return new String(((ContentCachingResponseWrapper) response).getContentAsByteArray());
-//			ByteArrayOutputStream byte1 = new ByteArrayOutputStream();
-//			//bao.wri
-//			response.getOutputStream().write(byte1.toByteArray());
-//			response.getOutputStream().flush();
-//			//response.getOutputStream().flush();
-//			log.info("byte1" + byte1);
-//			log.info("byte1" + new String(byte1.toByteArray(), "UTF-8"));
-//			return byte1.toString();
-			//return response.getOutputStream()    .write(new byte[]);//    LoggerService. . .getReader().lines().collect(Collectors.joining(System.lineSeparator()));
-			//return null;
+			if(response.getStatus() == HttpStatus.OK.value()) {
+				return new String(((ContentCachingResponseWrapper) response).getContentAsByteArray());
+			} else {
+				ByteArrayOutputStream byte1 = new ByteArrayOutputStream();
+				//bao.wri
+				//response.getOutputStream().write(byte1.toByteArray());
+				//System.out.println(response.getWriter().);
+				
+//				response.getOutputStream().flush();
+//				log.info("byte1" + byte1);
+//				log.info("byte1" + new String(byte1.toByteArray(), "UTF-8"));
+//				return byte1.toString();
+				return "";
+			}
+
 		} catch (Exception e) {
-			log.error("Failed to parse body of the reuqest  :: {}", ExceptionUtils.getStackTrace(e));
+			log.error("error........");
 			return "";
 		}
 	}

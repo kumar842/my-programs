@@ -12,7 +12,6 @@ import com.regunta.myapp.error.ErrorCodes;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
 
 /**
  * 
@@ -26,12 +25,12 @@ public class Employee extends BaseEntity implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	@Getter private Long id;
+	private Long id;
 	
 	@NotEmpty(message = ErrorCodes.EMPLOYEE_FIRST_NAME_MANDATORY)
-	@Getter private String firstName;
-	@Getter private String lastName;
-	@Getter private String middleName;
+	private String firstName;
+	private String lastName;
+	private String middleName;
 	
 	//@JsonFormat(pattern = "yyyy-MM-dd hh:mm:ss Z", timezone = "America/Los_Angeles")
     //private Date joinDate = new Date();

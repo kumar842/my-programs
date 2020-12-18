@@ -7,7 +7,6 @@ import javax.persistence.MappedSuperclass;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.Data;
-import lombok.Getter;
 
 /**
  * base entity
@@ -19,12 +18,12 @@ import lombok.Getter;
 //@Entity
 @MappedSuperclass
 public class BaseEntity {
-	@Getter private String createdBy;
-	@Getter private Date createdOn;
-	@Getter private String lastModifiedBy;
-	@Getter private Date lastModifiedOn;
+	private String createdBy;
+	private Date createdOn;
+	private String lastModifiedBy;
+	private Date lastModifiedOn;
 	@JsonIgnore
-	@Getter private Boolean isValid;
+	private Boolean isValid;
 	
 	public BaseEntity setCreatedBy(String createdBy) {
 		this.createdBy = createdBy;

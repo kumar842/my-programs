@@ -36,14 +36,12 @@ public class AuthKeyInterceptor implements BeforeHandler {
 	public Flow handle(HttpServletRequest request, HttpServletResponse response, HandlerMethod handler, String[] flags)
 			throws Exception {
 		log.info("handle(): Checking authtoken for request");
-		String xAPIKey = request.getHeader("x-api-key");
-		if (config.getApiKey().equalsIgnoreCase(xAPIKey)) {
+		//String xAPIKey = request.getHeader("x-api-key");
+		if (config.getApiKey().equalsIgnoreCase(request.getHeader("x-api-key"))) {
 			log.info("Valid api key found.");
 			return Flow.CONTINUE;
 		}
-		log.error("Invalid x-api-key : {}", xAPIKey);
-		//response.setStatus(HttpStatus.UNAUTHORIZED.value());
-		throw new UnAuthorizedException(xAPIKey);
+		throw new UnAuthorizedException();
 		//return Flow.HALT;
 	}
 

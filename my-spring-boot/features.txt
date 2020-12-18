@@ -38,12 +38,12 @@
 	- context path - Done
 	- jpa database conf.
 	- date format
-	- server.port
+	- server.port - Done
 	- management.port etc.
 
 
 Bugs:
-- log interceptor fails for 404 error/when exception occurs
+- log interceptor fails for 404 error/when exception occurs - Done
 
 
 

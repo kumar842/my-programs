@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
@@ -19,6 +20,8 @@ public class LoggerInterceptor extends HandlerInterceptorAdapter {
 	public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler,
 			ModelAndView modelAndView) throws Exception {
 		loggerService.logResponse(request, response);
-		((ContentCachingResponseWrapper) response).copyBodyToResponse();
+		if(response.getStatus() == HttpStatus.OK.value()) {
+			((ContentCachingResponseWrapper) response).copyBodyToResponse();
+		}
 	}
 }
