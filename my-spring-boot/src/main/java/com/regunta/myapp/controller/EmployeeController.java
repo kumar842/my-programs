@@ -3,7 +3,6 @@ package com.regunta.myapp.controller;
 import java.util.Calendar;
 import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.Optional;
 
 import org.apache.commons.lang.BooleanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -50,22 +49,7 @@ public class EmployeeController {
 	
 	@GetMapping("/{id}")
 	Employee findById(@PathVariable final Long id) {
-		//Approach 1:
-//		Optional<Employee> employeeOptional = findById(id, config.getEntityIsFetchOnlyValid());
-//		
-//		if(!employeeOptional.isPresent()){
-//			throw new EmployeeNotFoundException(id);
-//		}		
-//		return employeeOptional.get();
-		
-		//Approach: 2 //returns no such element exception
-		//return findById(id, config.getEntityIsFetchOnlyValid()).get();
-		
-		try {
-			return this.findEntityById(id).get();
-		} catch (NoSuchElementException e) {
-			throw new EmployeeNotFoundException(id);
-		}
+		return this.findEntityById(id);
 	}
 	
 	@PostMapping()
@@ -88,12 +72,7 @@ public class EmployeeController {
 	Employee update(@PathVariable final Long id, 
 			@RequestBody @Validated final Employee employee) {
 		//Approach 1
-//		Optional<Employee> employeeOptional = this.findById(id, config.getEntityIsFetchOnlyValid());
-//		if(!employeeOptional.isPresent()){
-//			throw new EmployeeNotFoundException(id);
-//		}
-//		
-//		Employee empEntity = employeeOptional.get();
+//		Employee empEntity = this.findEntityById(id);
 //		empEntity.setFirstName(employee.getFirstName());
 //		empEntity.setLastName(employee.getLastName());
 //		empEntity.setMiddleName(employee.getMiddleName());
@@ -104,53 +83,35 @@ public class EmployeeController {
 //		return this.empRepository.save(empEntity);
 		
 		//Approach 2
-		try {
-			return this.empRepository.save((Employee) this.findById(id)
-					.setFirstName(employee.getFirstName())
-					.setLastName(employee.getLastName())
-					.setMiddleName(employee.getMiddleName())
-					.setLastModifiedBy("rajkumar" )
-					.setLastModifiedOn(Calendar.getInstance().getTime()));
-		} catch (NoSuchElementException e) {
-			throw new EmployeeNotFoundException(id);
-		}
+		return this.empRepository.save((Employee) this.findEntityById(id)
+				.setFirstName(employee.getFirstName())
+				.setLastName(employee.getLastName())
+				.setMiddleName(employee.getMiddleName())
+				.setLastModifiedBy("rajkumar")
+				.setLastModifiedOn(Calendar.getInstance().getTime()));
 	}
 	
 	@DeleteMapping("/{id}")
 	void delete(@PathVariable final Long id) {
-		//Approach 1
-//		Optional<Employee> employeeOptional = this.findById(id, config.getEntityIsFetchOnlyValid());
-//		if(!employeeOptional.isPresent()){
-//			throw new EmployeeNotFoundException(id); 
-//		}
-//		
-//		/** soft delete **/
-//		if(BooleanUtils.isTrue(config.getEntityIsSoftDelete())) {
-//			Employee empEntity = employeeOptional.get();
-//			empEntity.setIsValid(Boolean.FALSE);
-//			this.empRepository.save(empEntity);
-//			return;
-//		}
-//		
-//		/** normal delete **/
-//		this.empRepository.deleteById(id);
-		
+		this.deleteEntityById(id);
+	}
+	
+	private Employee findEntityById(Long id) throws EmployeeNotFoundException {
 		try {
-			if(BooleanUtils.isTrue(config.getEntityIsSoftDelete())) {
-				this.empRepository.save((Employee) this.findById(id).setIsValid(Boolean.FALSE));
-			} else {
-				this.empRepository.deleteById(id);
-			}
-			
+			return BooleanUtils.isTrue(this.config.getEntityIsFetchOnlyValid())?
+					this.empRepository.findByIdAndIsValid(id, Boolean.TRUE).get() :
+					this.empRepository.findById(id).get();
 		} catch (NoSuchElementException e) {
 			throw new EmployeeNotFoundException(id);
 		}
 	}
 	
-	private Optional<Employee> findEntityById(Long id) {
-		return BooleanUtils.isTrue(config.getEntityIsFetchOnlyValid())?
-				this.empRepository.findByIdAndIsValid(id, Boolean.TRUE) :
-				this.empRepository.findById(id);
+	private void deleteEntityById(Long id) throws EmployeeNotFoundException {
+		if(BooleanUtils.isTrue(this.config.getEntityIsSoftDelete())) {
+			this.empRepository.save((Employee) this.findEntityById(id).setIsValid(Boolean.FALSE));
+		} else {
+			this.empRepository.deleteById(id);
+		}
 	}
 }
 

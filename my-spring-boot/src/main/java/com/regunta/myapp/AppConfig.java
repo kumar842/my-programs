@@ -33,8 +33,8 @@ public class AppConfig {
 	
 	@PostConstruct
     public void cache() {
-		Timer t = new Timer();
-		t.schedule(new TimerTask() {
+		//Timer t = new Timer();
+		new Timer().schedule(new TimerTask() {
 		    @Override
 		    public void run() {
 		    	cacheValue();

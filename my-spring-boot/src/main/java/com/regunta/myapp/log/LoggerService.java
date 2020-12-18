@@ -1,15 +1,12 @@
 package com.regunta.myapp.log;
 
 import java.io.ByteArrayOutputStream;
-import java.util.Collection;
+import java.util.Collections;
 import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
-import javax.security.auth.x500.X500Principal;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -80,16 +77,8 @@ public class LoggerService {
 	 * @return the map
 	 */
 	private Map<String, String> buildParametersMap(HttpServletRequest httpServletRequest) {
-		Map<String, String> resultMap = new HashMap<>();
-		Enumeration<String> parameterNames = httpServletRequest.getParameterNames();
-
-		while (parameterNames.hasMoreElements()) {
-			String key = parameterNames.nextElement();
-			String value = httpServletRequest.getParameter(key);
-			resultMap.put(key, value);
-		}
-
-		return resultMap;
+		return Collections.list(httpServletRequest.getParameterNames())
+				.stream().collect(Collectors.toMap(key -> key, key -> httpServletRequest.getParameter(key)));
 	}
 
 	/**
@@ -101,7 +90,7 @@ public class LoggerService {
 	private Map<String, String> buildHeadersMap(HttpServletRequest request) {
 		Map<String, String> map = new HashMap<>();
 
-		Enumeration<?> headerNames = request.getHeaderNames();
+		Enumeration<String> headerNames = request.getHeaderNames();
 		while (headerNames.hasMoreElements()) {
 			String key = (String) headerNames.nextElement();
 			String value = request.getHeader(key);
@@ -109,6 +98,12 @@ public class LoggerService {
 		}
 
 		return map;
+		
+		//class org.apache.tomcat.util.http.NamesEnumerator cannot be cast to class java.util.Collection 
+		//(org.apache.tomcat.util.http.NamesEnumerator is in unnamed module of loader 'app'; java.util.Collection 
+		//is in module java.base of loader 'bootstrap')
+//		return ((Collection<String>)request.getHeaderNames()).stream().collect(Collectors.toSet()).stream()
+//				.collect(Collectors.toMap(header -> header, header -> request.getHeader(header)));
 	}
 
 	/**
@@ -118,18 +113,8 @@ public class LoggerService {
 	 * @return the map
 	 */
 	private Map<String, String> buildHeadersMap(HttpServletResponse response) {
-//		Map<String, String> map = new HashMap<>();
-//
-//		Collection<String> headerNames = response.getHeaderNames();
-//		for (String header : headerNames) {
-//			map.put(header, response.getHeader(header));
-//		}
-		
-		System.out.println(response.getHeaderNames());
-		
-		return response.getHeaderNames().stream().collect(Collectors.toSet()).stream().collect(Collectors.toMap(header -> header, header -> ""));
-		
-		//return map;
+		return response.getHeaderNames().stream().collect(Collectors.toSet()).stream()
+				.collect(Collectors.toMap(header -> header, header -> response.getHeader(header)));
 	}
 	
 	/**
@@ -161,7 +146,7 @@ public class LoggerService {
 //				log.info("byte1" + byte1);
 //				log.info("byte1" + new String(byte1.toByteArray(), "UTF-8"));
 //				return byte1.toString();
-				return "";
+				return ""; //TODO: how to return error response body
 			}
 
 		} catch (Exception e) {
