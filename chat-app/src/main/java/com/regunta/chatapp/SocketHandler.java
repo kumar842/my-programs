@@ -18,10 +18,10 @@ import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
 
-import com.proterra.chatapp.models.ChatMessage;
 import com.regunta.chatapp.dao.UserDAO;
 import com.regunta.chatapp.util.MessageUtil;
 import com.regunta.chatapp.util.UserUtil;
+import com.rregunta.chatapp.models.ChatMessage;
 
 /**
  * Socket handler for all charger connections 

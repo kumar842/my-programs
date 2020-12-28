@@ -1,4 +1,4 @@
-package com.proterra.chatapp.models;
+package com.rregunta.chatapp.models;
 
 import java.util.Date;
 

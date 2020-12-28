@@ -14,7 +14,15 @@
 - ORM - Base Entity
 - ORM - JPA - mysql
 - Caching
+- properties
+	- context path - Done
+	- jpa database conf. - Done
+	- date format - Done
+	- server.port - Done
+	- management.port etc.
 
+- Schedule - WIP
+- swagger - WIP
 - readMe
 - RBAC
 - ORM - 1-1, 1-m, m-1, m-m etc.
@@ -22,7 +30,6 @@
 - spring security
 - session management
 - Junit test cases
-- Schedule
 - CRUD UI with Vaadin
 - Docker
 - Asynchronous APIs
@@ -31,18 +38,12 @@
 - JMS
 - API documentation REST Docs
 - Paginated APIs
-- swagger
+
 - Actuator
-- properties
-	- context path - Done
-	- jpa database conf. - Done
-	- date format - Done
-	- server.port - Done
-	- management.port etc.
 
 
 Bugs:
-- log interceptor fails for 404 error/when exception occurs - Done
+- log interceptor fails for 404 error/when exception occurs - Fixed
 
 
 

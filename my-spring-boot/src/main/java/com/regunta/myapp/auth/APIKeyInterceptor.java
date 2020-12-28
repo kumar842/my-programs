@@ -12,12 +12,8 @@ import com.kastkode.springsandwich.filter.api.Flow;
 import com.regunta.myapp.AppConfig;
 import com.regunta.myapp.error.UnAuthorizedException;
 
-import lombok.extern.slf4j.Slf4j;
-
-/** The Constant log. */
-@Slf4j
 @Component
-public class AuthKeyInterceptor implements BeforeHandler {
+public class APIKeyInterceptor implements BeforeHandler {
 	
 	@Autowired
 	private AppConfig config;
@@ -35,14 +31,9 @@ public class AuthKeyInterceptor implements BeforeHandler {
 	@Override
 	public Flow handle(HttpServletRequest request, HttpServletResponse response, HandlerMethod handler, String[] flags)
 			throws Exception {
-		log.info("handle(): Checking authtoken for request");
-		//String xAPIKey = request.getHeader("x-api-key");
-		if (config.getApiKey().equalsIgnoreCase(request.getHeader("x-api-key"))) {
-			log.info("Valid api key found.");
-			return Flow.CONTINUE;
+		if (!config.getApiKey().equals(request.getHeader("x-api-key"))) {
+			throw new UnAuthorizedException();
 		}
-		throw new UnAuthorizedException();
-		//return Flow.HALT;
+		return Flow.CONTINUE;
 	}
-
 }

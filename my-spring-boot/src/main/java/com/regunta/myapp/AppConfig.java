@@ -58,4 +58,10 @@ public class AppConfig {
 	
 	@Value("${cache.refresh.interval.in.min}")
 	private String cacheRefreshIntervalInMin;
+	
+	@Value("${aws.userpool.id}")
+	private String awsUserPoolId;
+	
+	@Value("${aws.region}")
+	private String awsRegion;
 }

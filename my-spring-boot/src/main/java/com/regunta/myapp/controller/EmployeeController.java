@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.kastkode.springsandwich.filter.annotation.Before;
 import com.kastkode.springsandwich.filter.annotation.BeforeElement;
 import com.regunta.myapp.AppConfig;
-import com.regunta.myapp.auth.AuthKeyInterceptor;
+import com.regunta.myapp.auth.APIKeyInterceptor;
 import com.regunta.myapp.entity.Employee;
 import com.regunta.myapp.error.EmployeeNotFoundException;
 import com.regunta.myapp.repository.EmployeeRepository;
@@ -28,7 +28,7 @@ import com.regunta.myapp.repository.EmployeeRepository;
 /**
  * The Class HealthController.
  */
-@Before(@BeforeElement(AuthKeyInterceptor.class))
+@Before(@BeforeElement(APIKeyInterceptor.class))
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/employees")

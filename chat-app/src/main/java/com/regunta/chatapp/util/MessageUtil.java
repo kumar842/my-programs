@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.socket.TextMessage;
 
 import com.google.gson.Gson;
-import com.proterra.chatapp.models.ChatMessage;
+import com.rregunta.chatapp.models.ChatMessage;
 
 import lombok.Data;
 
