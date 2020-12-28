@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
 import com.regunta.myapp.AppConfig;
 import com.regunta.myapp.entity.Employee;
 import com.regunta.myapp.error.EmployeeNotFoundException;
@@ -82,7 +80,7 @@ public class RESTTemplate {
 	Employee createUser() {
 		String url = this.baseURL;
 		
-		Employee employee = new Employee();//.setFirstName("Test");
+		Employee employee = new Employee();
 		
 		HttpEntity<Employee> request = new HttpEntity<Employee>(employee, headers);
 		
