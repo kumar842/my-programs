@@ -28,7 +28,7 @@ import com.regunta.myapp.service.UserService;
 @RestController
 @RequestMapping("/users")
 @CrossOrigin
-public class UserManagementController {
+public class UserController {
 
 	@Autowired
 	private UserService userService;
