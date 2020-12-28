@@ -62,6 +62,12 @@ public class AppConfig {
 	@Value("${aws.userpool.id}")
 	private String awsUserPoolId;
 	
+	@Value("${aws.client.id}")
+	private String awsClientId;
+	
 	@Value("${aws.region}")
 	private String awsRegion;
+	
+	private String accessKeyId;
+	private String secretKey;
 }
