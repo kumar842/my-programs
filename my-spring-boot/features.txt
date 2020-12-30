@@ -20,6 +20,9 @@
 	- date format - Done
 	- server.port - Done
 	- management.port etc.
+- Aws cognito user controller
+
+
 
 - Schedule - WIP
 - swagger - WIP
@@ -36,7 +39,6 @@
 - websocket
 - REST API with file upload
 - JMS
-- API documentation REST Docs
 - Paginated APIs
 - Routing function
 - Actuator
