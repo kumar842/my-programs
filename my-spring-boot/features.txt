@@ -1,10 +1,10 @@
 ~~~~~~~~~~~~~~~~~~~~  Features  ~~~~~~~~~~~~~~~~~~~~
-- log interceptors
-- auth interceptors
-- global exception handling
-- validations
-- hot redeploy
-- profiling
+- Log Interceptor
+- APIKey Interceptor, JWTAuthToken Interceptor
+- Global exception handling
+- Validations
+- Hot redeploy
+- Profiling
 - CRID APIs
 - logging(slf4j) rolling based logging(10MB, day wise)
 - enable CORS

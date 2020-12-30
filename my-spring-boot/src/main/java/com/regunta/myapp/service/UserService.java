@@ -39,7 +39,7 @@ import com.regunta.myapp.entity.CognitoUser;
  * Service implementation for User
  * 
  */
-@Service
+//@Service
 public class UserService {
 
 	@Autowired

@@ -30,7 +30,7 @@ import com.regunta.myapp.service.UserService;
 @CrossOrigin
 public class UserController {
 
-	@Autowired
+	//@Autowired
 	private UserService userService;
 
 	@GetMapping
