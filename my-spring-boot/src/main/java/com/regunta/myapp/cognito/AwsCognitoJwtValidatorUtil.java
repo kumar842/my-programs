@@ -8,7 +8,6 @@ import javax.annotation.PostConstruct;
 
 import org.apache.commons.lang.exception.ExceptionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import com.amazonaws.regions.Regions;
 import com.nimbusds.jose.JOSEException;
