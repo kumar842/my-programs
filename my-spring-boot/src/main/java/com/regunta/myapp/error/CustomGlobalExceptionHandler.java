@@ -23,7 +23,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 public class CustomGlobalExceptionHandler extends ResponseEntityExceptionHandler {
 
     // Let Spring BasicErrorController handle the exception, we just override the status code
-    @ExceptionHandler(EmployeeNotFoundException.class)
+    @ExceptionHandler(RuntimeException.class)
     public void springHandleNotFound(HttpServletResponse response) throws IOException {
         response.sendError(HttpStatus.NOT_FOUND.value());
     }

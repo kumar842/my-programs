@@ -70,4 +70,25 @@ public class AppConfig {
 	
 	private String accessKeyId;
 	private String secretKey;
+	
+	@Value("${entities.fetched.success.message}")
+	private String entitiesFetchedSuccessMessage;
+	
+	@Value("${entity.with.id.fetched.success.message}")
+	private String entityWithIdFetchedSuccessMessage;
+	
+	@Value("${entities.not.found.message}")
+	private String entitiesNotFoundMessage;
+	
+	@Value("${entity.with.id.not.found.message}")
+	private String entityWithIdNotFoundMessage;
+	
+	@Value("${entity.created.success.message}")
+	private String entityCreatedSuccessMessage;
+	
+	@Value("${entity.updated.success.message}")
+	private String entityUpdatedSuccessMessage;
+	
+	@Value("${entity.deleted.success.message}")
+	private String entityDeletedSuccessMessage;
 }

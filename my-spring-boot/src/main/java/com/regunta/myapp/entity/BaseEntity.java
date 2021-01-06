@@ -4,8 +4,6 @@ import java.util.Date;
 
 import javax.persistence.MappedSuperclass;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import lombok.Data;
 
 /**
@@ -22,31 +20,23 @@ public class BaseEntity {
 	private String lastModifiedBy;
 	private Date lastModifiedOn;
 	
-	@JsonIgnore
-	private Boolean isValid;
-	
-	public BaseEntity setCreatedBy(String createdBy) {
+	public BaseEntity withCreatedBy(String createdBy) {
 		this.createdBy = createdBy;
 		return this;
 	}
 	
-	public BaseEntity setCreatedOn(Date createdOn) {
+	public BaseEntity withCreatedOn(Date createdOn) {
 		this.createdOn = createdOn;
 		return this;
 	}
 	
-	public BaseEntity setLastModifiedBy(String lastModifiedBy) {
+	public BaseEntity withLastModifiedBy(String lastModifiedBy) {
 		this.lastModifiedBy = lastModifiedBy;
 		return this;
 	}
 	
-	public BaseEntity setLastModifiedOn(Date lastModifiedOn) {
+	public BaseEntity withLastModifiedOn(Date lastModifiedOn) {
 		this.lastModifiedOn = lastModifiedOn;
-		return this;
-	}
-	
-	public BaseEntity setIsValid(Boolean isValid) {
-		this.isValid = isValid;
 		return this;
 	}
 }

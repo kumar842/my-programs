@@ -20,7 +20,6 @@ import org.springframework.web.client.RestTemplate;
 
 import com.regunta.myapp.AppConfig;
 import com.regunta.myapp.entity.Employee;
-import com.regunta.myapp.error.EmployeeNotFoundException;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -60,7 +59,7 @@ public class RESTTemplate {
 		try {
 			return restTemplate.exchange(url, HttpMethod.GET, request, Employee.class).getBody();
 		} catch (HttpClientErrorException.NotFound e) {
-			throw new EmployeeNotFoundException(id);
+			throw new RuntimeException(String.format(config.getEntityWithIdNotFoundMessage(), id));
 		}
 	}
 	
