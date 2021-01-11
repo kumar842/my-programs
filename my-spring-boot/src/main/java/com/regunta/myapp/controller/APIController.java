@@ -1,5 +1,6 @@
 package com.regunta.myapp.controller;
 
+import java.util.Calendar;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -101,23 +103,29 @@ public class APIController {
 			throw new HttpClientErrorException(HttpStatus.NOT_FOUND);
 		}
 	}
-//	
-//	@PutMapping("/{id}")
-//	Response<?> update(@PathVariable final Long id, 
-//			@RequestBody @Validated final Employee employee) {
-//		
-//		Employee employeeEntity = this.employeeRepository.save((Employee) this.employeeRepository.findEntityById(id)
-//				.withFirstName(employee.getFirstName())
-//				.withLastName(employee.getLastName())
-//				.withMiddleName(employee.getMiddleName())
-//				.withLastModifiedBy("rajkumar")
-//				.withLastModifiedOn(Calendar.getInstance().getTime()));
-//		
-//		return this.responseUtil.withEmployee(this.employeeRepository.save(employeeEntity))
-//				.withMessage(this.config.getEmployeeUpdatedSuccessMessage());
-//		
-//	}
-//	
+	
+	@PutMapping("/{id}")
+	Response<?> update(final @PathVariable Object id, final @PathVariable("entity") String entity,
+			@RequestBody @Validated final Object object) {
+		
+		try {
+			return this.entityControllerMap.get(entity).saveObject(object, id);
+		} catch (NullPointerException e) {
+			throw new HttpClientErrorException(HttpStatus.NOT_FOUND);
+		}
+		
+		Employee employeeEntity = this.employeeRepository.save((Employee) this.employeeRepository.findEntityById(id)
+				.withFirstName(employee.getFirstName())
+				.withLastName(employee.getLastName())
+				.withMiddleName(employee.getMiddleName())
+				.withLastModifiedBy("rajkumar")
+				.withLastModifiedOn(Calendar.getInstance().getTime()));
+		
+		return this.responseUtil.withEmployee(this.employeeRepository.save(employeeEntity))
+				.withMessage(this.config.getEmployeeUpdatedSuccessMessage());
+		
+	}
+	
 	@SuppressWarnings("unchecked")
 	@DeleteMapping("/{id}")
 	Response<?> delete(final @PathVariable("entity") String entity, @PathVariable final Object id) {

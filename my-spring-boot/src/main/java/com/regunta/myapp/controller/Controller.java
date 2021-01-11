@@ -53,6 +53,18 @@ public class Controller<T, ID> {
 		.withMessage(String.format(this.config.getEntityCreatedSuccessMessage(), entityType.getSimpleName()));
 	}
 	
+	@SuppressWarnings({ "unchecked", "rawtypes" })
+	public Response<?> saveObject(Object object, Object id) {
+		try {
+			//TODO: optmize this... 
+			T t = (T) ((CustomRepository) this.ctx.getBean(entityRepositoryType)).findObjectById(id, entityType);
+			return this.responseUtil.withT((T) ((CustomRepository) this.ctx.getBean(entityRepositoryType)).saveObject(object, entityType))
+					.withMessage(String.format(this.config.getEntityCreatedSuccessMessage(), entityType.getSimpleName()));
+		} catch (NoSuchElementException e) {
+			throw new RuntimeException(String.format(config.getEntityWithIdNotFoundMessage(), entityType.getSimpleName(), id));
+		}
+	}
+	
 //	Response<Employee> update(@PathVariable final Long id, 
 //			@RequestBody @Validated final Employee employee) {
 //		
@@ -77,6 +89,8 @@ public class Controller<T, ID> {
 			throw new RuntimeException(String.format(config.getEntityWithIdNotFoundMessage(), entityType.getSimpleName(), id));
 		}
 	}
+
+	
 }
 
 

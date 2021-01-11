@@ -24,6 +24,12 @@ public interface CustomRepository<T, ID> extends JpaRepository<T, ID> {
 		return findById(getIDById(primaryKeyType, id)).get();
 	}
 	
+//	@SuppressWarnings("unchecked")
+//	default T findObjectById(final Object id, final Class<?> entityClass) {
+//		String primaryKeyType = getPrimaryField(entityClass);
+//		return findById(getIDById(primaryKeyType, id)).get();
+//	}
+	
 	@SuppressWarnings("unchecked")
 	default T saveObject(Object object, final Class<?> entityClass) {
 		Gson gson = new Gson();
