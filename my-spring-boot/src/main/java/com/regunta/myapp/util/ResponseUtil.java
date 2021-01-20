@@ -1,11 +1,3 @@
-/******************************************************************************
- * Copyright (C) 2004-2021 Proterra.
- *
- * This file is part of demand-management-service Project
- *
- * demand-management-service Project and associated code cannot be copied and/or distributed
- * without a written permission of Proterra, and/or its subsidiaries
- *****************************************************************************/
 package com.regunta.myapp.util;
 
 import java.util.List;
